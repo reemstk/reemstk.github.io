@@ -39,7 +39,7 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: dark                                 # abyss Create your own theme by setting options in _data/themes.yml
+ui_theme: abyss                                 # abyss Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
@@ -71,7 +71,7 @@ animate: true                                        # false or true, uses anima
 # =======================================#
 # -----------HOME PAGE  SETTINGS --------#
 #========================================#
-home_option: timeline                               # options: education, skills, timeline
+home_option: skills                               # options: education, skills, timeline
 
 # =======================================#          # These  settings are for demo purposes only, things like 
 # -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
