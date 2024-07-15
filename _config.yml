@@ -14,7 +14,7 @@ description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://reemstk.github.io/reemstk/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/github-mark-white.png               # used to generate site link preview
-image_alt: A minimalistic jekyll theme for academic    # image description
+image_alt: Gihub    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
