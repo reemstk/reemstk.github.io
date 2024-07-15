@@ -12,8 +12,8 @@ title: Reems
 email: 
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/dumbarton.png               # used to generate site link preview
+url: "https://reemstk.github.io/reemstk/"          # the base hostname & protocol for your site, e.g. http://example.com
+image: /assets/img/github-mark-white.png               # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
