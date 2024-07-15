@@ -20,7 +20,7 @@ image_alt: Gihub    # image description
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Reems
-profile_image: /assets/img/avatar/me.jpg #/assets/img/avatar/avatar.jpeg 
+profile_image: #/assets/img/avatar/me.jpg #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
 twitter: 
