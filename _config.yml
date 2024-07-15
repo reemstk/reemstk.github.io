@@ -8,9 +8,9 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Dumbarton 
+title: Reems 
 email: 
-description: a minimalistic jekyll theme for academics
+description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/dumbarton.png               # used to generate site link preview
@@ -19,19 +19,19 @@ image_alt: A minimalistic jekyll theme for academic    # image description
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
-profile_image: /assets/img/avatar/cropped.png #/assets/img/avatar/avatar.jpeg 
+author: Reems
+profile_image: /assets/img/avatar/me.jpg #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
-twitter: tbutler0x90
-github: tcbutler320
-linkedin: tyler-b-a700a1aa
-stackoverflow: '12935605'
-website: https://tbutler.org
+twitter: 
+github: reemstk
+linkedin: reemstk
+stackoverflow: ''
+website: 
 codepen: 
 medium: 
-email: developer.tbutler@gmail.com
-keybase: tbutler320
+email: 
+keybase: 
 pgp: 
 ctftime: 
 phonenumber: 
@@ -39,14 +39,14 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: abyss                                 # Create your own theme by setting options in _data/themes.yml
+ui_theme: dark                                 # abyss Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
 # -----------BLOG SETTINGS---------------#
 #========================================#
 
-tags:  post jekyll styleguide ipsum
+tags: # post jekyll styleguide ipsum
 twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
 
 comments: false                                     # Used to enable comments on blog posts
@@ -71,7 +71,7 @@ animate: true                                        # false or true, uses anima
 # =======================================#
 # -----------HOME PAGE  SETTINGS --------#
 #========================================#
-home_option: education                               # options: education, skills, timeline
+home_option: timeline                               # options: education, skills, timeline
 
 # =======================================#          # These  settings are for demo purposes only, things like 
 # -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
@@ -116,7 +116,7 @@ exclude:
 # -----JEKYLL SCHOLAR SETTINGS-----------#
 #========================================#
 scholar:
-  last_name: Dumbarton
+  last_name: Kottackal
   style: apa
   locale: en
   source: /_bibliography/
