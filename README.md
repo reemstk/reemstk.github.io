@@ -1,4 +1,4 @@
-# Kory Rosen's Personal Website
+# Hi, This is Reems
 
 Welcome to the repo showcases my journey.
 
