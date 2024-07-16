@@ -9,7 +9,7 @@
       {{ page.content | markdownify }}
 
       <ul class="timeline">
-        {% for event in site.events %} {% assign loopindex = forloop.index |
+        {% for event in site.data.timeline %} {% assign loopindex = forloop.index |
         modulo: 2 %} {% capture class %} {% if loopindex == 0 %}
         timeline-inverted {% endif %} {% endcapture %}
 
