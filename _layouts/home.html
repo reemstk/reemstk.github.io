@@ -44,6 +44,19 @@ layout: default
         {% endif %}
       </div>
     </div>
+      <!-- TIMELINE SECTION -->
+    <div class="col-md-8">
+      {% if site.animate %}
+      <div class="card-body animate__animated animate__fadeInRight" style="color:{{theme.education-font-color}};">
+      {% else %}
+      <div class="card-body mt-0" style="color:{{theme.education-font-color}};">
+      {% endif %}
+        <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
+        {% if site.home_option == "timeline" %}
+          {% include timeline.html %}
+        {% endif %}
+      </div>
+    </div>
   </div>
 </div>
 
