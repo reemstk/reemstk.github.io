@@ -3,11 +3,11 @@
 #========================================#
 
 title: Home 
-email: 
+email: reemstk.cv@gmail.com
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://reemstk.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/avatar/me.jpg              # used to generate site link preview
+image: /assets/img/github-mar-white.png              # used to generate site link preview
 image_alt: Github    # image description
 
 # =======================================#
