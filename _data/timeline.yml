@@ -2,7 +2,7 @@
 # Timeline #
 ############
 #events:
-  - image: "/assets/img/icons/idfc.jpg"
+  - image: /assets/img/icons/idfc.jpg
     date: "July 2021 - Today"
     description: "PM"
   - image: "/assets/img/icons/nmims.png"
