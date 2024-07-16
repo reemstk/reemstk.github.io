@@ -182,3 +182,25 @@ $('.collapse').collapse()
 <script>
 $('.show').show()
 </script>
+
+  <script>
+  $(document).ready(function(){
+      $('#test-list a').on('click', function (e) {
+          e.preventDefault();
+          $(this).tab('show');
+      });
+  
+      $('.collapse').collapse();
+      $('.show').show();
+      $('body').scrollspy({ target: '#list-example' });
+      $(".toast").toast("show");
+  });
+  </script>
+
+  <!-- JavaScript to enable tab functionality -->
+<script>
+  $('#test-list a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
+  </script>
