@@ -6,6 +6,11 @@
   Any other head element should come *after* these tags.
  -->
 <title>{{ site.title }}</title>
+{% if site.me-img contains "https://" %}
+      <img class="img-me" src="{{ site.me-img }}" alt="">
+{% else %}
+      <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+{% endif %}
 <!-- Set the base URL for all relative URLs within the document -->
 <base href="{{ site.url }}">
 
