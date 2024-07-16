@@ -75,8 +75,8 @@ a.highlighted:hover {
 /* Styling */
 
 .img-circle{
-    border-radius:40%;
-    transform: scale(0.75);
+    border-radius: 50%;
+    transform: scale(0.9);
     width:150px; 
     height:150px; 
     object-fit:cover; 
