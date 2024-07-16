@@ -10,6 +10,18 @@ url: "https://reemstk.github.io/"          # the base hostname & protocol for yo
 image: /assets/img/github-mar-white.png              # used to generate site link preview
 image_alt: Github    # image description
 
+#############
+# HTML Head #
+#############
+lang: "en"
+favicon: "/img/favicon.ico"
+################
+# Header layout #
+################
+black-favicon: "/img/black-lab-glass.ico"
+logo: "../img/author.png" # leave blank if you don't want a logo
+background-img: "../img/intro-bg.gif"
+
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
