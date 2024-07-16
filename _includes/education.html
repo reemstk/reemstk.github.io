@@ -3,21 +3,14 @@
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
   <li class="media">
-    <img src="{{ entry.Degree.Icon }}" class="img-fluid" style="aspect-ratio: auto; height: 67px;"alt="Icon for {{ entry.School }}">
+    <img src="{{ entry.Icon }}" class="img-fluid" style="aspect-ratio: auto; height: 67px;"alt="Icon for {{ entry.School }}">
     <div class="media-body">
       <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">{{ entry.School }}</h5>
       <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i>{{ entry.Degree.Program | replace: '<br>', '<br>' }}</i><br>
-        {% if entry.Degree.Advisors %}
-          Advisor: 
-          {% for advisor in entry.Degree.Advisors %}
-            <a href="{{ advisor.Link }}" target="_blank">{{ advisor.Name }}</a>{% unless forloop.last %} & {% endunless %}
-          {% endfor %}
-          <br>
-        {% endif %}
-        {{ entry.Degree.StartDate }} - {{ entry.Degree.EndDate }}
+        {{ entry.StartDate }} - {{ entry.EndDate }}
       </p>
-      {% if entry.Degree.Degree %}
-        <p>{{ entry.Degree.Degree }}</p>
+      {% if entry.Degree %}
+        <p>{{ entry.Degree }}</p>
       {% endif %}
     </div>
   </li>
