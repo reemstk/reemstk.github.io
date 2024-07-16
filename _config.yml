@@ -13,7 +13,7 @@ email:
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
 url: "https://reemstk.github.io/reemstk/"          # the base hostname & protocol for your site, e.g. http://example.com
-image: /assets/img/avatar/me.jpg                # used to generate site link preview
+image: /assets/img/avatar/me - s.jpg               # used to generate site link preview
 image_alt: Gihub    # image description
 
 # =======================================#
