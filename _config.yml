@@ -2,7 +2,7 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Reems 
+title: Home 
 email: 
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
