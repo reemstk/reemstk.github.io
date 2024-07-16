@@ -64,7 +64,7 @@ animate: false                                        # false or true, uses anim
 # =======================================#
 # -----------HOME PAGE  SETTINGS --------#
 #========================================#
-home_option: timeline                               # options: education, skills, timeline
+home_option: education                               # options: education, skills, timeline
 
 # =======================================#          # These  settings are for demo purposes only, things like 
 # -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
