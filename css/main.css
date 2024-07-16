@@ -78,8 +78,7 @@ a.highlighted:hover {
     border-radius: 50%;
     max-width:150px; 
     max-height:150px;
-    background-size: cover;
-    background-position: center;
+    position: relative;
     object-fit:cover; 
     border: 3px solid #149f98;
 }
