@@ -32,7 +32,7 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: dark                                 # abyss Create your own theme by setting options in _data/themes.yml
+ui_theme: abyss                                 # abyss Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
