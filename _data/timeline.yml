@@ -2,8 +2,11 @@
 # Timeline #
 ############
 #events:
+  - image: /assets/img/icons/ms.png
+    date: May 2022 - Today
+    description: PM
   - image: /assets/img/icons/idfc.jpg
-    date: July 2021 - Today
+    date: July 2021 - May 2022
     description: PM
   - image: /assets/img/icons/nmims.png
     date: July 2019 - May 2021
