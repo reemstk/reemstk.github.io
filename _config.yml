@@ -104,7 +104,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - CHANGELOG
+  - CODE_OF_CONDUCT
 # =======================================#
 # -----JEKYLL SCHOLAR SETTINGS-----------#
 #========================================#
