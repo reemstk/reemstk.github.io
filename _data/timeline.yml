@@ -1,17 +1,18 @@
 ############
 # Timeline #
 ############
+#
 events:
   - image: "/assets/img/icons/idfc.jpg"
     date: "July 2021 - Today"
     description: "PM"
-  - image: "assets/img/icons/nmims.png"
+  - image: "/assets/img/icons/nmims.png"
     date: "July 2019 - May 2021"
     description: "Grad Student at NMIMS"
-  - image: "assets/img/icons/infy.png"
+  - image: "/assets/img/icons/infy.png"
     date: "June 2014 - June 2019"
     description: "Software Engineer at Infosys"
-  - image: "assets/img/icons/mgu.png"
+  - image: "/assets/img/icons/mgu.png"
     date: "July 2010 - May 2014"
     description: "Undergrad Student at MGU"
   - image: ""
