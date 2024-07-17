@@ -1,5 +1,5 @@
-- University: University of North Texas
-  Role: Undergraduate Research Assistant
+- University: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  Role: Egestas congue quisque egestas diam in arcu cursus euismod quis
   id: compsci
   data-id: data-research2 
   heading-id: head-research2
@@ -7,19 +7,10 @@
   EndDate: Present
   first: false
   description: >
-    During my time as a Research Assistant at the University of North Texas, 
-    I have been immersed in a deep learning project under the guidance of Professor Ting Xiao and 
-    Dr. Daniel Lersch. My involvement originated from the Research Experience for Undergraduates (REU) program, 
-    focusing on the application of variational autoencoders for particle identification within the realm of high-energy 
-    physics. My role has been integral to the project, as I have been responsible for engineering custom hyperparameter
-    tuners, thereby aiding in both the development and refinement of sophisticated predictive models. 
-    This has involved a continuous process of enhancing the model architecture, significantly contributing 
-    to its computational efficiency and predictive accuracy. My work has culminated in presenting a poster at 
-    the REU symposium and is now progressing towards the drafting of a research paper for publication, 
-    demonstrating the practical implications of our findings in the field of high-energy physics.
+    Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
 
-- University: Purdue University
-  Role: Political Science Undergraduate Research Assistant
+- University: ABC
+  Role: XYZ
   id: polsci
   data-id: data-research1
   heading-id: head-research1
@@ -27,16 +18,5 @@
   EndDate: 01/2024
   first: true   # one must be true to properly display
   description: >
-    In the summer of 2023, as a Research Assistant at Purdue University under Professors Daniel Schiff 
-    and Kaylyn Jackson Schiff, I embarked on an exploratory project to harness the potential of Large 
-    Language Models (LLMs) for the analysis of sociopolitical behavior from a demographic perspective. 
-    My role entailed a thorough examination of LLM architectures to enhance their precision 
-    in identifying demographic-specific linguistic patterns. I crafted innovative prompts that 
-    married linguistic insights with AI technology, aiming to draw out nuanced information from 
-    varied demographic segments. Analyzing the predictive accuracy of LLMs in pinpointing distinctive 
-    phrases within open-ended survey responses, I applied advanced natural language processing techniques 
-    to large datasets to uncover the complex relationship between language usage and demographic factors. 
-    This multifaceted project not only honed my technical and analytical acumen but also deepened my understanding 
-    of the ethical dimensions of synthetic data generation. The experience solidified my resolve to advocate for AI's 
-    responsible use, recognizing its power and the necessity of thoughtful application.
+    Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
 
