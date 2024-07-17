@@ -1,0 +1,67 @@
+- name: Sentient Robots & The Equal Protection Argument 
+  id: sample3
+  description: >
+    This law review article examines the legal implications of granting personhood and equal protection rights 
+    to sentient artificial intelligence (AI) entities. It presents a hypothetical scenario set in 2100 California to explore 
+    the potential challenges of AI regulation. The article analyzes theories of legal personhood and their applicability to AI systems 
+    with human-like cognitive abilities. It evaluates the criteria for suspect classification under the Equal Protection Clause—including 
+    history of discrimination, political powerlessness, and immutable characteristics—and their relevance to sentient AI. The analysis also 
+    considers the potential application of rational basis review to laws regulating sentient AI, weighing governmental interests in public 
+    safety against the rights of AI entities. Drawing parallels with legal precedents involving non-human entities and discrimination, the 
+    article highlights the complexities of adapting existing legal frameworks to advanced AI systems. It concludes by proposing recommendations 
+    for policy development, emphasizing the need for a multidisciplinary approach and adaptive legal frameworks to address the unique challenges 
+    presented by increasingly sophisticated AI in society.
+  date: Spring 2024
+  link: /assets/pdf/SentientRobotsLawReview.pdf
+  Skills: 
+    - Constitutional Law
+    - Equal Protection Clause
+    - Suspect Classification Analysis
+    - Rational Basis Review
+    - Legal Personhood
+    - AI Ethics and Regulation
+
+
+
+- name: Commerce Clause Interpretation
+  id: sample1
+  description: >
+     The essay examines the evolution and interpretation of the Commerce Clause in the U.S. Constitution.
+     It focuses on key Supreme Court cases that have shaped the understanding of the Clause's reach in balancing state 
+     and federal powers. The essay discusses the aggregation principle, introduced in the 20th century, which 
+     allows Congress to regulate individual activities impacting interstate commerce when considered collectively.
+     It reviews landmark cases like Wickard v. Filburn, Heart of Atlanta Motel Inc. v. United States, and 
+     Katzenbach v. McClung, highlighting their roles in expanding the interpretation of the Commerce Clause. 
+     The essay also delves into contrasting views on the Clause's interpretation, particularly examining 
+     Chief Justice Rehnquist's standard in United States v. Lopez and subsequent cases like National Federation 
+     of Independent Business v. Sebelius, presenting different judicial perspectives 
+     on the balance between federal authority and state rights in contemporary society.
+  date: Fall 2023
+  link: /assets/pdf/CommerceEssay.pdf
+  Skills: 
+    - Constitutional Law
+    - Commerce Clause
+    - United States v. Lopez
+    - Independent Business v. Sebelius
+    - Aggregation Principle
+
+- name: "Artificial Intelligence Ethics Unleashed: Navigating Australia's Regulatory Landscape"
+  id: sample1
+  description: >
+      The policy brief examines the urgent need for regulation in the AI field in Australia. 
+      It critically assesses Australia's current AI Ethics Principles using the multiple streams framework. 
+      The brief highlights risks associated with maintaining current policies due to AI's potential dangers 
+      and outlines economic, political, and budgetary implications of new AI regulations. 
+      Recommendations focus on enhancing fairness, privacy, transparency, and explainability of AI 
+      systems at various levels. The brief emphasizes the significance of ethical AI development in the face 
+      of emerging societal and technological challenges. 
+      This was written during my study abroad program at the University of Sydney. 
+  date: Spring 2023
+  link: /assets/pdf/policybrief.pdf
+  Skills: 
+    - Artificial Intelligence
+    - Ethics
+    - Australia
+    - Policy Brief
+    - Multiple Streams Framework
+    - Regulation
