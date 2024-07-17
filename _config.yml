@@ -14,11 +14,11 @@ image_alt: favicon    # image description
 # HTML Head #
 #############
 lang: "en"
-favicon: "/img/favicon.ico"
+favicon: /assets/img/icons/favicon.ico
 ################
 # Header layout #
 ################
-background-img: "../img/intro-bg.gif"
+background-img: /assets/img/intro-bg.gif
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
@@ -42,7 +42,7 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: abyss                                 # abyss Create your own theme by setting options in _data/themes.yml
+ui_theme: dark                                 # abyss Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
@@ -155,4 +155,3 @@ norton-safeweb:                                   # <meta name="norton-safeweb-s
 detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers 
 x-dns-prefetch-control: on                        # on or off. Completely opt out of DNS prefetching by setting to "off"
 fbappid:                                          # Facebook OpenGraph 
-
