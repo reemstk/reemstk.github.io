@@ -83,6 +83,7 @@ a.highlighted:hover {
     position: relative;
     object-fit:cover; 
     border: 3px solid #149f98;
+    margin-top: 0.2rem;
 }
     
 .timeline {
