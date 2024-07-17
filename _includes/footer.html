@@ -1,13 +1,14 @@
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container">
-    <p class="navbar-text pull-left">Copyright © 2024 Reems  - Powered by Jekyll & Dumbarton
-       <!-- <a href="https://github.com/tcbutler320/Jekyll-Theme-Dumbarton" target="_blank" >GitHub</a> -->
-    </p>
-    <p class="navbar-text pull-right">
-            {% include social-footer.html %}
-    </p>
+<!-- Footer Start -->
+
+<footer>
+  {% include social-footer.html %}
+
+  <div class="container text-center">
+    <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }} - Powered by Jekyll & Dumbarton</p>
   </div>
-</div> 
+</footer>
+
+<!-- Footer End -->
 
 <script>
   $(function () {
