@@ -1,7 +1,7 @@
 ############
 # Timeline #
 ############
-#events:
+acad-events:
   - image: /assets/img/icons/ms.png
     date: May 2022 - Today
     description: Product Manager
@@ -24,7 +24,7 @@
     date: June 2000 - Mar 2001
     description: Student at Viswajyothi
   - image: /assets/img/icons/iis.jpg
-    date: Till 2000
+    date: 1997 - 2000
     description: Student at IIS - Ar'Ar
 # First image of the Timeline
 timeline-img: /assets/img/icons/favicon-baby.ico
