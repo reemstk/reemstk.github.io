@@ -31,19 +31,20 @@ layout: default
         <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="..." style="border-radius:50%; width:300px; height:200px; object-fit:cover; border: 3px solid #149f98;"/>
       {% endif %}
     </div>
+    
     <!-- SECTION -->
     <div class="col-md-8">
       {% if site.animate %}
-      <div class="card-body animate__animated animate__fadeInRight" style="color:{{theme.education-font-color}};">
+        <div class="card-body animate__animated animate__fadeInRight" style="color:{{theme.education-font-color}};">
       {% else %}
-      <div class="card-body mt-0" style="color:{{theme.education-font-color}};">
+        <div class="card-body mt-0" style="color:{{theme.education-font-color}};">
       {% endif %}
-        <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
+       
+      <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
         {% if site.home_option == "education" %}
           {% include education.html %}
-        {% elsif site.home_option == "timeline" %}
-          {% include timeline.html %}
         {% endif %}
+        
       </div>
     </div>
   </div>
@@ -57,6 +58,8 @@ layout: default
 {% else %}
 <div class="card mx-auto mb-1 border-0"  style="max-width: 100%;">
 {% endif %}
+
+{% if site.home_option != "timeline" %}
 <div class="card-header" style="background-color:{{ theme.home-highlight-background }}; overflow-x: auto; white-space: nowrap;">
     <ul class="nav nav-tabs card-header-tabs" id="test-list" role="tablist" style="display: flex; flex-wrap: nowrap; overflow-y: hidden;scrollbar-width: thin;">
       {% for section in site.data.sections %}
@@ -65,8 +68,9 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-  </div>
-  <div class="card-body">          
+</div>
+  
+ <div class="card-body">          
     <div class="tab-content mt-3">
       {% for section in site.data.sections %}
         {% if section.first %}
@@ -194,8 +198,13 @@ layout: default
       {% endfor %}
     </div>
 </div>
+{% endif %}
 
-
+<!-- timeline -->
+{% if site.home_option == "timeline" %}
+          {% include timeline.html %}
+{% endif %}
+  
 <!-- ANIMATE.JS ANIMATE LIBRARY
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
 -->
