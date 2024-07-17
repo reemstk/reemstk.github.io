@@ -1,6 +1,12 @@
 - School: NMIMS
-  Degree: 
-  Program: Master in Business Administration
+  Degree: MBA
+  Program: 
   Start Date: 2019
   End Date: 2021
   Icon: /assets/img/icons/nmims.png    # Make this icon small, think 30px/30px
+- School: MGU
+  Degree: B.Tech
+  Program: 
+  Start Date: 2010
+  End Date: 2014
+  Icon:     # Make this icon small, think 30px/30px
