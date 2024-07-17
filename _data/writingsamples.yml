@@ -1,67 +1,39 @@
-- name: Sentient Robots & The Equal Protection Argument 
+- name: Lorem ipsum dolor sit amet
   id: sample3
   description: >
-    This law review article examines the legal implications of granting personhood and equal protection rights 
-    to sentient artificial intelligence (AI) entities. It presents a hypothetical scenario set in 2100 California to explore 
-    the potential challenges of AI regulation. The article analyzes theories of legal personhood and their applicability to AI systems 
-    with human-like cognitive abilities. It evaluates the criteria for suspect classification under the Equal Protection Clause—including 
-    history of discrimination, political powerlessness, and immutable characteristics—and their relevance to sentient AI. The analysis also 
-    considers the potential application of rational basis review to laws regulating sentient AI, weighing governmental interests in public 
-    safety against the rights of AI entities. Drawing parallels with legal precedents involving non-human entities and discrimination, the 
-    article highlights the complexities of adapting existing legal frameworks to advanced AI systems. It concludes by proposing recommendations 
-    for policy development, emphasizing the need for a multidisciplinary approach and adaptive legal frameworks to address the unique challenges 
-    presented by increasingly sophisticated AI in society.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
   date: Spring 2024
-  link: /assets/pdf/SentientRobotsLawReview.pdf
+  link: /assets/pdf/lorem.pdf
   Skills: 
-    - Constitutional Law
-    - Equal Protection Clause
-    - Suspect Classification Analysis
-    - Rational Basis Review
-    - Legal Personhood
-    - AI Ethics and Regulation
+    - Lorem ipsum dolor sit amet
+    - Lorem ipsum dolor sit amet
+    - Lorem ipsum dolor sit amet
+    - Lorem ipsum dolor sit amet
+    - Lorem ipsum dolor sit amet
+    - Lorem ipsum dolor sit amet
 
 
 
-- name: Commerce Clause Interpretation
+- name: Semper eget duis at tellus
   id: sample1
   description: >
-     The essay examines the evolution and interpretation of the Commerce Clause in the U.S. Constitution.
-     It focuses on key Supreme Court cases that have shaped the understanding of the Clause's reach in balancing state 
-     and federal powers. The essay discusses the aggregation principle, introduced in the 20th century, which 
-     allows Congress to regulate individual activities impacting interstate commerce when considered collectively.
-     It reviews landmark cases like Wickard v. Filburn, Heart of Atlanta Motel Inc. v. United States, and 
-     Katzenbach v. McClung, highlighting their roles in expanding the interpretation of the Commerce Clause. 
-     The essay also delves into contrasting views on the Clause's interpretation, particularly examining 
-     Chief Justice Rehnquist's standard in United States v. Lopez and subsequent cases like National Federation 
-     of Independent Business v. Sebelius, presenting different judicial perspectives 
-     on the balance between federal authority and state rights in contemporary society.
+     Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
   date: Fall 2023
-  link: /assets/pdf/CommerceEssay.pdf
+  link: /assets/pdf/XYZ.pdf
   Skills: 
-    - Constitutional Law
-    - Commerce Clause
-    - United States v. Lopez
-    - Independent Business v. Sebelius
-    - Aggregation Principle
+    - Semper eget duis at tellus
+    - Semper eget duis at tellus
+    - Semper eget duis at tellus
+    - Semper eget duis at tellus
+    - Semper eget duis at tellus
 
-- name: "Artificial Intelligence Ethics Unleashed: Navigating Australia's Regulatory Landscape"
+- name: "Egestas congue quisque egestas"
   id: sample1
   description: >
-      The policy brief examines the urgent need for regulation in the AI field in Australia. 
-      It critically assesses Australia's current AI Ethics Principles using the multiple streams framework. 
-      The brief highlights risks associated with maintaining current policies due to AI's potential dangers 
-      and outlines economic, political, and budgetary implications of new AI regulations. 
-      Recommendations focus on enhancing fairness, privacy, transparency, and explainability of AI 
-      systems at various levels. The brief emphasizes the significance of ethical AI development in the face 
-      of emerging societal and technological challenges. 
-      This was written during my study abroad program at the University of Sydney. 
+      Egestas congue quisque egestas diam in arcu cursus euismod quis. Ullamcorper eget nulla facilisi etiam dignissim diam. Nunc pulvinar sapien et ligula ullamcorper. Turpis in eu mi bibendum. Faucibus scelerisque eleifend donec pretium vulputate. Euismod lacinia at quis risus sed vulputate odio ut enim. Phasellus faucibus scelerisque eleifend donec pretium. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quis auctor elit sed vulputate. Eu mi bibendum neque egestas. Eu turpis egestas pretium aenean pharetra magna ac. Augue ut lectus arcu bibendum at. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Fermentum leo vel orci porta non pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Amet commodo nulla facilisi nullam vehicula ipsum a arcu.
   date: Spring 2023
-  link: /assets/pdf/policybrief.pdf
+  link: /assets/pdf/abc.pdf
   Skills: 
-    - Artificial Intelligence
-    - Ethics
-    - Australia
-    - Policy Brief
-    - Multiple Streams Framework
-    - Regulation
+    - Semper eget duis 
+    - Semper eget duis 
+    - Semper eget duis 
