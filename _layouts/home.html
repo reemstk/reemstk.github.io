@@ -53,13 +53,13 @@ layout: default
 <!-- style="font-family:{{ theme.link-font }};background-color:{{ theme.nav-color }}; -->
 
 <!-- HOME HIGHLIGHTS SECTION  --> 
-{% if site.animate && site.home_option == "education" %}
+{% if site.animate %}
 <div class="card mx-auto animate__animated animate__slideInUp animate__delay-1s glowing-border" style="max-width: 100%;">
 {% else %}
 <div class="card mx-auto mb-1 border-0"  style="max-width: 100%;">
 {% endif %}
 
-{% if site.home_option != "timeline" %}
+{% if site.home_option == "education" %}
 <div class="card-header" style="background-color:{{ theme.home-highlight-background }}; overflow-x: auto; white-space: nowrap;">
     <ul class="nav nav-tabs card-header-tabs" id="test-list" role="tablist" style="display: flex; flex-wrap: nowrap; overflow-y: hidden;scrollbar-width: thin;">
       {% for section in site.data.sections %}
