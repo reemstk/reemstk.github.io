@@ -852,6 +852,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     float: left;
     width: 100%;
     padding: 0 20px 20px 30px;
+    margin-left: 400px;
   }
 
   .timeline > li .timeline-image {
