@@ -6,7 +6,6 @@
   Any other head element should come *after* these tags.
  -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="description" content="{{site.description}}" />
 <meta name="author" content="{{site.author}}" />
 <meta name="keywords" content="{{site.keywords}}" />
@@ -14,10 +13,9 @@
 <!-- copied-->
 <link
     rel="canonical"
-    href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}"
+    href="{{page.url | replace:'index.html','' | prepend: site.url}}"
 />
 
-<!--<title>{{ site.title }}</title>-->
 <title>{{site.title}}{% if page.title %} | {{page.title}}{% endif %}</title>
 
 <!-- Set the base URL for all relative URLs within the document -->
@@ -89,13 +87,13 @@
 
 <!-- For IE 10 and below -->
 <!-- Place favicon.ico in the root directory - no tag necessary -->
-<!--{% if site.favicon %}
+{% if site.favicon %}
   <link
     rel="shortcut icon"
     type="image/x-icon"
     href="{{site.baseurl}}{{site.favicon}}"
   />
-  {% endif %}-->
+  {% endif %}
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/icons/favicon-16x16.png">
