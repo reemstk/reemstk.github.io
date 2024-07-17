@@ -73,10 +73,6 @@ a.highlighted:hover {
 }
 
 /* Styling */
-img {
-  max-width: 100%; !important
-  display: block;
-}
 
 .img-circle{
     border-radius:50%;
@@ -857,7 +853,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     float: left;
     width: 100%;
     padding: 0 20px 20px 30px;
-    margin-left: 400px;
+    margin-left: 50%;
   }
 
   .timeline > li .timeline-image {
