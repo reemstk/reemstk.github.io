@@ -15,10 +15,6 @@ image_alt: favicon    # image description
 #############
 lang: "en"
 favicon: /assets/img/icons/favicon.ico
-################
-# Header layout #
-################
-background-img: /assets/img/intro-bg.gif
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
