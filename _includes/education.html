@@ -3,10 +3,12 @@
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
   <li class="media">
-    <img src="{{ entry.Icon }}" class="img-fluid" style="aspect-ratio: auto; height: 90px; width: 90px; "alt="Icon for {{ entry.School }}">
+    <img src="{{ entry.Icon }}" class="img-fluid" style="aspect-ratio: auto; height: 90px; width: 100px; "alt="Icon for {{ entry.School }}">
     <div class="media-body">
       <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">{{ entry.School }}</h5>
-      <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i>{{ entry.Degree.Program | replace: '<br>', '<br>' }}</i><br>
+      <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};">
+        <i>{{ entry.Program | replace: '<br>', '<br>' }}</i>
+        <br>
         {{ entry.StartDate }} - {{ entry.EndDate }}
       </p>
       {% if entry.Degree %}
