@@ -4,8 +4,8 @@ links:
 - title: About
   url: about.html
 
-#- title: Blog
-#  url: blog.html
+- title: Blog
+  url: blog.html
 
 - title: Contact
   url: contact.html
