@@ -73,6 +73,10 @@ a.highlighted:hover {
 }
 
 /* Styling */
+img {
+  max-width: 100%; !important
+  display: block;
+}
 
 .img-circle{
     border-radius:50%;
