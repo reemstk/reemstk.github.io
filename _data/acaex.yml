@@ -1,5 +1,5 @@
-- Role: Mentor
-  Class: "STA230: Introduction to Data Science"
+- Role: XYZ
+  Class: "Lorem ipsum dolor sit amet"
   id: STA230-Introduction-to-Data-Science
   data-id: data-mentor1
   heading-id: head-mentor1
@@ -7,25 +7,10 @@
   EndDate: 12/2023
   first: true   # one must be true to properly display
   description: >
-   As a mentor for STA-230, my role was to support and enhance the educational experience of 
-   students enrolled in this data science program. The course, who was taught by Professor Ryan Miller, 
-   was structured as a series of workshop-style classes, where the majority of the time was dedicated to hands-on lab activities, allowing students to collaboratively 
-   engage with the material. During this period, I guided students during bi-weekly class sessions focused on R 
-   programming and data analysis. These sessions were designed to deepen students' understanding of data science 
-   principles and to foster active participation. I also conducted weekly mentor sessions, during which I provided 
-   further explanations of course concepts and assisted with inquiries about homework and class materials. 
-   My responsibilities included efficiently managing communications, where I ensured that all queries from
-   students and professors regarding course materials were promptly and clearly addressed. The curriculum 
-   I assisted with covered a range of topics crucial to data science, including data visualization principles 
-   and techniques using ggplot2, data manipulation with packages such as tidyr and dplyr, and the development 
-   of interactive web applications with tools like plotly and R Shiny. We also explored topics like principal 
-   component analysis and clustering, and applied various modeling techniques for both numerical 
-   and categorical outcomes. This mentorship position allowed me to not only apply my 
-   knowledge of data science to assist students but also to refine my communication and 
-   leadership skills within an academic setting.
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
 
-- Role: Grader
-  Class: "STA230: Introduction to Data Science"
+- Role: ABC
+  Class: "Lorem ipsum dolor sit amet"
   id: STA230-Introduction-to-Data-Science
   data-id: data-grader1 
   heading-id: head-grader1
@@ -33,20 +18,10 @@
   EndDate: 12/2022
   first: false
   description: >
-    In my role as a grader for STA-230, I was integral to the academic evaluation process, 
-    engaging in regular grading meetings to assess the work of a diverse cohort of 50 students. 
-    My commitment to upholding high grading standards was a cornerstone of this position. 
-    I collaborated closely with the course instructor to navigate the complexities of grading, 
-    especially when it came to ambiguous cases, ensuring that each student received a fair and balanced assessment 
-    of their work. My responsibilities extended beyond grading; I provided students with insightful feedback on their 
-    assignments, emphasizing areas in need of improvement as well as acknowledging their mastery of key concepts. 
-    This feedback was tailored to support and enhance the students' learning journey, helping them to identify their 
-    strengths and areas for growth within the data science discipline. This role underscored my dedication to academic 
-    integrity and my ability to contribute constructively to the educational development of students.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
 
-
-- Role: Grader
-  Class: "CSC151: Functional Problem Solving"
+- Role: ABC
+  Class: "Lorem ipsum dolor sit amet"
   id: CSC151-Functional-Problem-Solving
   data-id: data-grader2
   heading-id: head-grader2
@@ -54,15 +29,4 @@
   EndDate: 05/2022
   first: false
   description: >
-    As a grader for CSC151, I was deeply involved in the foundational computer science course in the curriculum. 
-    The course is known for introducing students to fundamental computer science concepts such as recursion, 
-    abstraction, scope and binding, modularity, and algorithm design and analysis using Racket, a
-    high-level functional programming language that is a variant of Scheme. In my role, I
-    assisted in grading a range of introductory computer science projects and homework.
-    The grading sessions I participated in were aimed at providing consistent and fair evaluations of the students’
-    coding assignments each week. Furthermore, I coordinated with the professor to develop effective grading methodologies,
-    which was crucial for maintaining the integrity of the course’s rigorous standards.
-    This engagement with CSC-151 allowed me to contribute significantly to the academic development of
-    students by providing them with constructive feedback on their algorithmic problem-solving skills
-    and programming techniques. My role also gave me a deeper insight into the pedagogical approaches 
-    necessary for teaching complex computational concepts​​​​​​.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
