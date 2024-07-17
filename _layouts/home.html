@@ -33,7 +33,7 @@ layout: default
     </div>
     
     <!-- SECTION -->
-    <div class="col-md-8">
+    <div class="col-md-8">      
       {% if site.animate %}
         <div class="card-body animate__animated animate__fadeInRight" style="color:{{theme.education-font-color}};">
       {% else %}
@@ -44,10 +44,17 @@ layout: default
         {% if site.home_option == "education" %}
           {% include education.html %}
         {% endif %}
-        
-      </div>
+      </div>          
     </div>
+      
   </div>
+
+    <!-- timeline -->
+    {% if site.home_option == "timeline" %}
+    <div class="row">
+          {% include timeline.html %}
+    </div>
+    {% endif %}
 </div>
 
 <!-- style="font-family:{{ theme.link-font }};background-color:{{ theme.nav-color }}; -->
@@ -198,11 +205,6 @@ layout: default
       {% endfor %}
     </div>
 </div>
-{% endif %}
-
-<!-- timeline -->
-{% if site.home_option == "timeline" %}
-          {% include timeline.html %}
 {% endif %}
   
 <!-- ANIMATE.JS ANIMATE LIBRARY
