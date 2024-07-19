@@ -28,8 +28,8 @@
               <h4>{{ event.date }}</h4>
             </div>
             <div class="timeline-body">
+              <i>{{ event.institute | markdownify }}</i>
               {{ event.description | markdownify }}
-              <i>{{ event.description | markdownify }}</i>
             </div>
           </div>
         </li>
