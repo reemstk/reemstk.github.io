@@ -10,7 +10,7 @@ Welcome to the repo which showcases my journey.
 
 ## Acknowledgements
 
-- **Theme**: The website uses
+- **Theme**: This website uses
   - Dumbarton [theme](https://github.com/tcbutler320/Jekyll-Theme-Dumbarton) by Tyler Butler.
   - { Personal } Jekyll [theme](https://github.com/le4ker/personal-jekyll-theme) by Panos Sakkos (le4ker).
 
