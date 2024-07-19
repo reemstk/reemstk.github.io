@@ -1,6 +1,6 @@
 # Hi, This is Reems
 
-Welcome to the repo showcases my journey.
+Welcome to the repo which showcases my journey.
 
 ## Overview
 
@@ -10,12 +10,14 @@ Welcome to the repo showcases my journey.
 
 ## Acknowledgements
 
-- **Theme**: The website uses the Dumbarton [theme](https://github.com/tcbutler320/Jekyll-Theme-Dumbarton) by Tyler Butler.
+- **Theme**: The website uses
+  - Dumbarton [theme](https://github.com/tcbutler320/Jekyll-Theme-Dumbarton) by Tyler Butler.
+  - { Personal } Jekyll [theme](https://github.com/le4ker/personal-jekyll-theme) by Panos Sakkos (le4ker).
 
 ## Contact
 
-For more information, visit [my website](https://reemstk.github.io/contact.html), or reach out to me through [LinkedIn](https://www.linkedin.com/in/reemstk/), [Twitter](https://twitter.com/rosenkor).
+For more information, visit [my website](https://reemstk.github.io/contact.html), or reach out to me through [LinkedIn](https://www.linkedin.com/in/reemstk/).
 
 ---
 
-© 2024 Reems | Website built with Jekyll & Dumbarton theme.
+© 2024 Reems
