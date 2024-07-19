@@ -29,9 +29,12 @@
             </div>
             <div class="timeline-body">
               <h6>{{ event.institute }}</h6>  <!-- | markdownify -->
-              {% for line in event.description %}
-                {{ line }}<br>
-              {% endfor %}
+              { event.description %}
+              <ul>
+                {% for list in event.content %}
+                <li>{{ list }}</li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
         </li>
