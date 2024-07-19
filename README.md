@@ -6,9 +6,6 @@ I am a Full Stack Developer who transitioned into Product Management.
 - **Top Skill**: Being scrappy and research 🛠️
 - **Interests**: Gardening 🌱, Reading 📔, Exploring places 🚵‍♀️
 
-- **Education**: MBA (NMIMS), MGU (BTech)
-- **Professional certification**: PMP by PMI
-
 ## Contact
 
 For more information, visit [my website](https://reemstk.github.io/contact.html), or reach out to me through [LinkedIn](https://www.linkedin.com/in/reemstk/).
