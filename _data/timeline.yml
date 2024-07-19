@@ -10,14 +10,14 @@
     date: July 2021 - May 2022
     description: Technology Product Manager
     institute: IDFC First Bank
-  - image: /assets/img/icons/pe.png
-    date: Jan 2021 - Feb 2021
-    description: Social Work Intern
-    institute: Plan@Earth
-  - image: /assets/img/icons/delhi.png
-    date: Mar 2020 - Jun 2020
-    description: Product Intern
-    institute: Delhivery
+ # - image: /assets/img/icons/pe.png
+ #   date: Jan 2021 - Feb 2021
+ #   description: Social Work Intern
+ #   institute: Plan@Earth
+ # - image: /assets/img/icons/delhi.png
+ #   date: Mar 2020 - Jun 2020
+ #   description: Product Intern
+ #   institute: Delhivery
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
     description: Grad Student (MBA)
