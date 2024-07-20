@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=reemstk26&color=green)  
 
-I am a Full Stack Developer who transitioned into Product Management.
+I am a Full Stack Developer who transitioned into a Product Manager.
 
 - **Top Trait**: 🕵️ Curious mind 
 - **Top Skill**: 🛠️ Being scrappy and in-depth research 
