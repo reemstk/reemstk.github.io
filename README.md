@@ -1,10 +1,12 @@
 # Hi, I am Reems 👋 [<img align="right" src="./assets/img/icons/icons8-kaggle-32.png" style="height:30px; width:30px;">](https://www.kaggle.com/rtk2018) [<img align="right" src="./assets/img/icons/icons8-linkedin-50.png" style="height:30px; width:30px;">](https://www.linkedin.com/in/reemstk/) [<img align="right" src="./assets/img/icons/icons8-github-32.png" style="height:30px; width:30px;">](https://reemstk.github.io/) 
 
+![](https://komarev.com/ghpvc/?username=reemstk26&color=green)  
+
 I am a Full Stack Developer who transitioned into Product Management.
 
-- **Top Trait**: Curious mind 🕵️
-- **Top Skill**: Being scrappy and research 🛠️
-- **Interests**: Gardening 🌱, Reading 📔, Exploring places 🚵‍♀️
+- **Top Trait**: 🕵️ Curious mind 
+- **Top Skill**: 🛠️ Being scrappy and research 
+- **Interests**: 🌱Gardening, 📔Reading, 🚵‍♀️Exploring places 
 
 
 <!-- BLOG-POST-LIST:START
@@ -25,12 +27,10 @@ I am a Full Stack Developer who transitioned into Product Management.
 -->
 
 <!-- GITHUB LANGUAGE STATS
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=reemstk&langs_count=5&theme=tokyonight)]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=reemstk&layout=compact&&show_icons=true&langs_count=5&theme=tokyonight)]()
 -->
 
-
-
-### Tools & Technology
+### ⚡ Tools & Technology
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) 
