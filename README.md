@@ -5,7 +5,7 @@
 I am a Full Stack Developer who transitioned into Product Management.
 
 - **Top Trait**: 🕵️ Curious mind 
-- **Top Skill**: 🛠️ Being scrappy and deep research 
+- **Top Skill**: 🛠️ Being scrappy and in-depth research 
 - **Interests**: 🌱Gardening, 📔Reading, 🚵‍♀️Exploring places 
 
 
