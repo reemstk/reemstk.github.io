@@ -1,4 +1,4 @@
-# Hi, I am Reems 👋
+# Hi, I am Reems 👋 [<img align="right" src="./assets/img/icons/icons8-kaggle-32.png" style="height:30px; width:30px;">](https://www.kaggle.com/rtk2018) [<img align="right" src="./assets/img/icons/icons8-linkedin-50.png" style="height:30px; width:30px;">](https://www.linkedin.com/in/reemstk/) [<img align="right" src="./assets/img/icons/icons8-github-32.png" style="height:30px; width:30px;">](https://reemstk.github.io/) 
 
 I am a Full Stack Developer who transitioned into Product Management.
 
@@ -17,12 +17,12 @@ I am a Full Stack Developer who transitioned into Product Management.
 -->
 
 
-### 🥇Competitions
+<!--### 🥇Competitions
 
 | Competition | Rank/Score|
 |--|--|
 |[Predict Customer Churn](https://www.kaggle.com/competitions/ftmba-nmims-predictive-2020) |12|
-
+-->
 
 <!-- GITHUB LANGUAGE STATS
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=reemstk&langs_count=5&theme=tokyonight)]()
@@ -38,7 +38,3 @@ I am a Full Stack Developer who transitioned into Product Management.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-
-### 💬 Contact Me  
-[&#f08c;](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/reemstk/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/rtk2018)
