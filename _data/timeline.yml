@@ -13,19 +13,13 @@
       - Product maanager for Employee Experience Mobile App
       - Product Manager for Banking and Relationship Management CRM portals
     institute: IDFC First Bank
- # - image: /assets/img/icons/pe.png
- #   date: Jan 2021 - Feb 2021
- #   description: Social Work Intern
- #   institute: Plan@Earth
- # - image: /assets/img/icons/delhi.png
- #   date: Mar 2020 - Jun 2020
- #   description: Product Intern
- #   institute: Delhivery
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
     description: Grad Student (MBA)
     content:
-      - Product Intern at Delhivery for address disambiguaton service, Addfix
+      - Product Intern at Delhivery
+      item: 
+        - Address disambiguaton service, Addfix
       - Social Work Intern at Plan@Earth
     institute: NMIMS
   - image: /assets/img/icons/infosys.png
