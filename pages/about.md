@@ -9,7 +9,7 @@ last-updated: 2024-07-26 5:55 PM
 
 <h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
 
-An erstwhile proud Full Stack Engineer who transitioned into a Product Manager!
+An erstwhile Full Stack Engineer who transitioned into a Product Manager!
 
 
 *This is an example of code*
