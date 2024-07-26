@@ -32,7 +32,10 @@
               {{ event.description }}
               <ul>
                 {% for list in event.content %}
-                <li><i>{{ list }}</i></li>
+                <li>{{ list }}</li>
+                  {% for sublist in event.content.item %}
+                    <li><i>{{ sublist }}</i></li>
+                  {% endfor %}
                 {% endfor %}
               </ul>
             </div>
