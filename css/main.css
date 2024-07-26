@@ -837,6 +837,13 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
+}
+
+/* added on 27 Jul 2024*/
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul,
+.timeline .timeline-inverted .timeline-body > p,
+.timeline .timeline-inverted .timeline-body > ul {
   width: 50%;
   word-wrap: break-word;
 }
