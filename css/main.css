@@ -837,6 +837,8 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
+  width: 50%;
+  word-wrap: break-word;
 }
 
 @media (min-width: 768px) {
