@@ -839,7 +839,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   margin-bottom: 0;
 }
 
-/* added on 27 Jul 2024*/
+/* added on 27 Jul 2024 by Reems 
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul,
 .timeline .timeline-inverted .timeline-body > p,
@@ -847,7 +847,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   width: 50%;
   word-wrap: break-word;
 }
-
+*/
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
