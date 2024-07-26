@@ -6,6 +6,6 @@ sitemap:
   priority: 1.0
 ---
 ### Hi, I'm Reems 👋
-Lorem Ipsum
+I am an erstwhile Full Stack Engineer who transitioned into a Product Manager!
 
-<a href="/contact.html" class="highlighted">Contact Me</a>
+<i><a href="/contact.html" class="highlighted">Contact Me</a></i>
