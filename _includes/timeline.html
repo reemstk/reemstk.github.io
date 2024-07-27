@@ -32,9 +32,9 @@
               {{ event.description }}
               <ul>
                 {% for content in event.content %}
-                    {% for data in content.data %}
+                    {% for data in event.content.data %}
                         <li> {{ data }} </li>
-                        {% for item in content.item %}
+                        {% for item in event.content.item %}
                               <li><i> {{ item }} </i></li>
                         {% endfor %}
                         {% endfor %}
