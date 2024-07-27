@@ -6,6 +6,7 @@ layout: default
 <!-- ABOUT ME SECTION -->
 <div class="card mx-auto border-0" style="position:relative;background-color:{{theme.home-background-color}};">
   <div class="row">
+    
     <div class="col-md-4">
       {% if site.animate %}
         <img src="{{ site.profile_image }}" class="img-me float-left animate__animated animate__fadeInLeft shadow bg-white" alt="...">
@@ -23,22 +24,20 @@ layout: default
       {% endif %}
        
       <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
-
-      <div class="intro">
-        <div class="intro-body">
-          <span class="intro-text"></span>
-        </div>
-      </div>
         
         <!-- education -->
         {% if site.home_option == "education" %}
           {% include education.html %}
         {% endif %}
-
         
-      </div>          
+      </div>       
     </div>
-      
+
+    <div class="intro">
+        <div class="intro-body">
+          <span class="intro-text"></span>
+        </div>
+    </div>  
   </div>
 
     <!-- timeline -->
