@@ -26,7 +26,7 @@ loop-count: False # Set False for infinite loop, or set any number for finite lo
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-#me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/reemstk.png?size=500"
 lines: # You can add HTML Tags in the Text
   - text: "replace the fear of unknown"
   - text: "with curiosity..."
