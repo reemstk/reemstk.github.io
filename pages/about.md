@@ -11,7 +11,7 @@ last-updated: 2024-07-26 5:55 PM
 
 An erstwhile Full Stack Engineer who transitioned into a Product Manager!
 
-
+I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru in 2014.
 *This is an example of code*
 ```js
 <script>
