@@ -23,11 +23,11 @@
     description: Grad Student (MBA)
     content:
     - data: 
-      - Product Intern at Delhivery
+        - Product Intern at Delhivery
       item: 
         - Addfix (Address disambiguaton service) as a Product
     - data: 
-      - Social Work Intern at Plan@Earth
+        - Social Work Intern at Plan@Earth
       item:
         - Content management for online marketplace of Upcycling Unit
         - Business case for repurposing of End of Life Tires
