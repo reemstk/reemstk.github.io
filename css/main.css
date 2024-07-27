@@ -969,13 +969,9 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 }
  /* end of timeline */
 
-/* dynamic text */
-.intro {
-  display: table;
-  width: 100%;
+.bg-img{
   height: auto;
   padding: 100px 0;
-  text-align: center;
   color: #fff;
   background: url(../img/intro-bg.gif) no-repeat bottom center scroll;
   background-color: #000;
@@ -983,7 +979,14 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  }
+}
+
+/* dynamic text */
+.intro {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
 .intro-body {
     display: table-cell;
     vertical-align: middle;
