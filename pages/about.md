@@ -9,9 +9,8 @@ last-updated: 2024-07-26 5:55 PM
 
 <h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
 
-An erstwhile Full Stack Engineer who transitioned into a Product Manager!
+I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru in 2014.
 
-I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru in 2014.
 *This is an example of code*
 ```js
 <script>
