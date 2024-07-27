@@ -49,7 +49,7 @@
     institute: Mahatma Gandhi University
     content:
     - data: 
-      - Elective courses: 
+      - Elective courses
       item: 
       - Medical Electronics
       - Digital Image Processing
@@ -58,7 +58,7 @@
     description: Student
     content:
     - data: 
-      - 12th Grade Major Subjects: 
+      - 12th Grade Major Subjects
       item: 
         - Physics, Chemistry, Biology, Mathematics, English
     institute: Rajagiri Public School
