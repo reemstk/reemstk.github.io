@@ -20,10 +20,12 @@
     date: Jun 2019 - May 2021
     description: Grad Student (MBA)
     content:
-    - data: Product Intern at Delhivery
+    - data: 
+      - Product Intern at Delhivery
       item: 
         - Addfix (Address disambiguaton service) as a Product
-    - data: Social Work Intern at Plan@Earth
+    - data: 
+      - Social Work Intern at Plan@Earth
       item:
         - Content management for online marketplace of Upcycling Unit
         - Business case for repurposing of End of Life Tires
@@ -42,10 +44,12 @@
     date: Jun 2010 - Jun 2014
     description: Undergrad Student
     content:
-    - data: B.Tech in Electronics and Communication Engineering
+    - data: 
+      - B.Tech in Electronics and Communication Engineering
     institute: Mahatma Gandhi University
     content:
-    - data: Elective courses: 
+    - data: 
+      - Elective courses: 
       item: 
       - Medical Electronics
       - Digital Image Processing
@@ -53,8 +57,10 @@
     date: 2001 - 2010
     description: Student
     content:
-    - data: 12th Grade Major Subjects: 
-      item: Physics, Chemistry, Biology, Mathematics, English
+    - data: 
+      - 12th Grade Major Subjects: 
+      item: 
+        - Physics, Chemistry, Biology, Mathematics, English
     institute: Rajagiri Public School
   - image: /assets/img/icons/vps.png
     date: 2000 - 2001
