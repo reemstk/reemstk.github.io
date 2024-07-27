@@ -49,20 +49,20 @@
     description: Undergrad Student
     content:
     - data: 
-      - B.Tech in Electronics and Communication Engineering
+        - B.Tech in Electronics and Communication Engineering
     - data: 
-      - Elective courses
+       - Elective courses
       item: 
         - Medical Electronics
         - Digital Image Processing
-     - data:
-       - Project
+    - data:
+        - Project
        item: 
-         - Intra prediction of H.264 using MATLAB
-     - data:
+        - Intra prediction of H.264 using MATLAB
+    - data:
         - Seminar topic
-        item: 
-          - Stretchable electronics
+      item: 
+        - Stretchable electronics
     institute: Mahatma Gandhi University
 ############
   - image: /assets/img/icons/rps.png
@@ -70,7 +70,7 @@
     description: Student
     content:
     - data: 
-      - 12th Grade Major Subjects
+        - 12th Grade Major Subjects
       item: 
         - Physics, Chemistry, Biology, Mathematics, English
     institute: Rajagiri Public School
