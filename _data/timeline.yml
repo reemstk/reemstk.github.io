@@ -52,13 +52,9 @@
         - Medical Electronics
         - Digital Image Processing
     - data:
-        - Project
-       item: 
-        - Intra prediction of H.264 using MATLAB
+        - Project - Intra prediction of H.264 using MATLAB
     - data:
-        - Seminar
-      item: 
-        - Stretchable electronics
+        - Seminar - Stretchable electronics
     institute: Mahatma Gandhi University
   - image: /assets/img/icons/rps.png
     date: 2001 - 2010
