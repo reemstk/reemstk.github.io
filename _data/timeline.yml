@@ -50,7 +50,7 @@
     content:
     - data: 
         - B.Tech in Electronics and Communication Engineering
-    - data: 
+    - data:
        - Elective courses
       item: 
         - Medical Electronics
@@ -60,7 +60,7 @@
        item: 
         - Intra prediction of H.264 using MATLAB
     - data:
-        - Seminar topic
+        - Seminar
       item: 
         - Stretchable electronics
     institute: Mahatma Gandhi University
