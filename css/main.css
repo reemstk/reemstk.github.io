@@ -971,6 +971,10 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 
 /* dynamic text */
 .intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
   text-align: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
