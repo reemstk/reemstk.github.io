@@ -29,14 +29,14 @@
             </div>
             <div class="timeline-body">
               <h6>{{ event.institute }}</h6>  <!-- | markdownify -->
-              {{ event.description }}
+              <i> {{ event.description }} </i>
               <ul style=" font-size: 90%;">
                 {% for content in event.content %}
                     {% for data in content.data %}                       
                         <li> {{ data }} </li>
                         <ul>
                         {% for item in content.item %}
-                           <li><i> {{ item }} </i></li>
+                           <li>{{ item }}</li>
                         {% endfor %}
                         </ul>
                     {% endfor %}
