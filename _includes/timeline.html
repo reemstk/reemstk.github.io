@@ -29,7 +29,7 @@
             </div>
             <div class="timeline-body">
               <h6>{{ event.institute }}</h6>  <!-- | markdownify -->
-              <i> {{ event.description }} </i>
+              <h6><i> {{ event.description }} </i></h6>
               <ul style=" font-size: 90%;">
                 {% for content in event.content %}
                     {% for data in content.data %}                       
