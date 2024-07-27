@@ -151,6 +151,25 @@
   gtag('config', '{{ site.google-tag }});
 </script>
 
+<!-- Dynamic Typing Start -->
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js"
+></script>
+<script type="text/javascript">
+  $(".intro-text").typed({
+    strings: ["{{ site.quote }}"],
+    typeSpeed: 3,
+    startDelay: 1000,
+    loop: false,
+    loopCount: 1,
+    cursorChar: "|",
+  });
+</script>
+
+<!-- Dynamic Typing End  -->
+
 <noscript>
   <!-- No JS alternative -->
 </noscript>
