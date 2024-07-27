@@ -6,7 +6,6 @@
     date: May 2022 - Today
     description: Product Manager
     institute: Microsoft
-############
   - image: /assets/img/icons/idfc.jpg
     date: July 2021 - May 2022
     description: Technology Product Manager
@@ -17,7 +16,6 @@
         - Product Manager for Banking and Relationship Management CRM portals
         - Initial team who set up Automation Testing CoE
     institute: IDFC First Bank
-############
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
     description: Grad Student (MBA)
@@ -32,7 +30,6 @@
         - Content management for online marketplace of Upcycling Unit
         - Business case for repurposing of End of Life Tires
     institute: NMIMS
-############
   - image: /assets/img/icons/infosys.png
     date: Jul 2014 - Mar 2019
     description: Technology Analyst
@@ -43,7 +40,6 @@
         - Senior Systems Engineer for CRM application migration for a major US Newsprint company
         - Systems Engineer involved in Content Management for a Fortune 500 Pharmaceutial company
     institute: Infosys
-############
   - image: /assets/img/icons/mgu.png
     date: Jun 2010 - Jun 2014
     description: Undergrad Student
@@ -64,7 +60,6 @@
       item: 
         - Stretchable electronics
     institute: Mahatma Gandhi University
-############
   - image: /assets/img/icons/rps.png
     date: 2001 - 2010
     description: Student
@@ -74,7 +69,6 @@
       item: 
         - Physics, Chemistry, Biology, Mathematics, English
     institute: Rajagiri Public School
-############
   - image: /assets/img/icons/vps.png
     date: 2000 - 2001
     description: Student
@@ -83,6 +77,5 @@
     date: 1997 - 2000
     description: Student
     institute: International Indian School, Kingdom of Saudi Arabia
-############
 # First image of the Timeline
 - timeline-img: /assets/img/icons/favicon-baby.ico
