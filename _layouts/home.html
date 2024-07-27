@@ -199,37 +199,9 @@ layout: default
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
 -->
 
-
-<!--JS FUNCTION FOR RECENT WORK SECTION -->
+ <!-- JavaScript to enable tab functionality -->
 <script>
-    $('#test-list a').on('click', function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-    })
-</script> 
-
-<!-- OPTIONAL TOAST JS FUNCTION-->
-<script>
-    $(document).ready(function() {
-        $(".toast").toast("show");
-    });
-</script>
-
-
-<script>
-$('body').scrollspy({ target: '#list-example' })
-</script>
-
-<script>
-$('.collapse').collapse()
-</script>
-
-<script>
-$('.show').show()
-</script>
-
-  <script>
-  $(document).ready(function(){
+$(document).ready(function(){
       $('#test-list a').on('click', function (e) {
           e.preventDefault();
           $(this).tab('show');
@@ -240,12 +212,4 @@ $('.show').show()
       $('body').scrollspy({ target: '#list-example' });
       $(".toast").toast("show");
   });
-  </script>
-
-  <!-- JavaScript to enable tab functionality -->
-<script>
-  $('#test-list a').on('click', function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-  })
   </script>
