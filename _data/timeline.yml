@@ -9,10 +9,11 @@
   - image: /assets/img/icons/idfc.jpg
     date: July 2021 - May 2022
     description: Technology Product Manager
-    content.data:
-      - Management Trainee in Corporate Technology
-      - Product Manager for Employee Experience Mobile App
-      - Product Manager for Banking and Relationship Management CRM portals
+    content:
+      data:
+        - Management Trainee in Corporate Technology
+        - Product Manager for Employee Experience Mobile App
+        - Product Manager for Banking and Relationship Management CRM portals
     institute: IDFC First Bank
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
@@ -22,15 +23,18 @@
         item: 
         - Address disambiguaton service, Addfix
       - data: Social Work Intern at Plan@Earth
+        - Content management for online marketplace of Upcycling Unit
+        - Business case for repurposing of End of Life Tires
     institute: NMIMS
   - image: /assets/img/icons/infosys.png
     date: Jul 2014 - Mar 2019
     description: Technology Analyst
-    content.data:
-      - Product Owner for Infosys Test Data Management solution
-      - Full stack developer at Infosys SET Labs (R&D)
-      - Senior Systems Engineer for CRM application migration from Mainframe to Java for a Major US publication client
-      - Systems Engineer involved in Content Management for a Fortune 500 Pharmaceutial client
+    content:
+      - data:
+        - Product Owner for Infosys Test Data Management solution
+        - Full stack developer at Infosys SET Labs (R&D)
+        - Senior Systems Engineer for CRM application migration from Mainframe to Java for a Major US publication client
+        - Systems Engineer involved in Content Management for a Fortune 500 Pharmaceutial client
     institute: Infosys
   - image: /assets/img/icons/mgu.png
     date: Jun 2010 - Jun 2014
