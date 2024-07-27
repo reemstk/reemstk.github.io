@@ -51,8 +51,14 @@
     - data: 
       - Elective courses
       item: 
-      - Medical Electronics
-      - Digital Image Processing
+        - Medical Electronics
+        - Digital Image Processing
+      - Project
+      item: 
+        - Intra prediction of H.264 using MATLAB
+      - Seminar topic
+      item: 
+        - Stretchable electronics
   - image: /assets/img/icons/rps.png
     date: 2001 - 2010
     description: Student
