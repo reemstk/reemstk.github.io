@@ -14,6 +14,7 @@
         - Management Trainee in Corporate Technology
         - Product Manager for Employee Experience Mobile App
         - Product Manager for Banking and Relationship Management CRM portals
+        - Enabled setting up of Automation Testing CoE
     institute: IDFC First Bank
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
@@ -33,17 +34,27 @@
     content:
     - data:
         - Product Owner for Infosys Test Data Management solution
-        - Full stack developer at Infosys SET Labs (R&D)
+        - Full stack developer at Infosys SET Labs (R&D for Validation servies CoE)
         - Senior Systems Engineer for CRM application migration from Mainframe to Java for a Major US publication client
         - Systems Engineer involved in Content Management for a Fortune 500 Pharmaceutial client
     institute: Infosys
   - image: /assets/img/icons/mgu.png
     date: Jun 2010 - Jun 2014
-    description: Undergrad Student (BTech)
+    description: Undergrad Student
+    content:
+    - data: B.Tech in Electronics and Communication Engineering
     institute: Mahatma Gandhi University
+    content:
+    - data: Elective courses: 
+      item: 
+      - Medical Electronics
+      - Digital Image Processing
   - image: /assets/img/icons/rps.png
     date: 2001 - 2010
     description: Student
+    content:
+    - data: 12th Grade Major Subjects: 
+      item: Physics, Chemistry, Biology, Mathematics, English
     institute: Rajagiri Public School
   - image: /assets/img/icons/vps.png
     date: 2000 - 2001
