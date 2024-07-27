@@ -31,9 +31,9 @@
               <h6>{{ event.institute }}</h6>  <!-- | markdownify -->
               {{ event.description }}
               <ul>
-                {% for list in event.content %}
+                {% for list in event.content.data %}
                 <li>{{ list }}</li>
-                  {% for sublist in event.content.item %}
+                  {% for sublist in event.content.data.item %}
                     <li><i>{{ sublist }}</i></li>
                   {% endfor %}
                 {% endfor %}
