@@ -2,20 +2,10 @@
 {% assign theme = site.data.themes[site.ui_theme] %}
 <html lang="{{ site.lang }}">
   {% include head.html %}
-
-  <!-- Intro Start -->
-
-<header class="intro">
-           <span class="intro-text">{{ content }}</span>
-          <h5>&nbsp;</h5>
-            <img class="img-me" src="{{ site.me-img }}" alt="" />
-</header>
-
-<!-- Intro End -->
-  
   <body style="background-color:{{theme.background-color}};">
     {% include nav.html %}
     <div class="dumbarton-spacer-sm"></div>
+    <span class="intro-text"></span>
     <div class="container">
       {{ content }}
     </div>
