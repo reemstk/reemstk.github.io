@@ -14,7 +14,7 @@ image_alt: favicon    # image description
 # HTML Head #
 #############
 lang: "en"
-
+quote: "test"
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
