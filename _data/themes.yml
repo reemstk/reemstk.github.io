@@ -45,10 +45,10 @@ dark:
     link-color: "#272343"
     link-font: "Poppins"
     font: "Poppins"
-    font-color: "Black"
+    font-color: "white"
     social-color: "#CCCCCC"
-    footer-social-color: "Black"
-    button-color: "black"
+    footer-social-color: "white"
+    button-color: "white"
     home-highlight-background: "#10292e"
     home-highlight-header-text: "#149f98"
     education-title-font: "Noto Sans JP"
@@ -62,15 +62,15 @@ dark:
     certification-entry-font: "Noto Sans JP"
     certification-entry-size: "18px"
     certification-section-size: "15px"
-    highlights-tab-color: "White"
-    projects-color: "Black"
+    highlights-tab-color: "gold"
+    projects-color: "white"
     border-style: ""
     post-tag-size: "20px"
     post-title-size: "36px"
     post-author-size: "15px"
     post-font-weight: "700"
     default-button-color: ""
-    social-color-footer : black
+    social-color-footer : white
 
 
 
