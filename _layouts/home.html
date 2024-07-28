@@ -25,17 +25,17 @@ layout: default
       </div>
     </div>
     <!-- profile image ends -->
-    
-    <div class="card-body">
-              <!-- content -->  
-              <p>
-                  {{ content | markdownify }}
-              </p>      
-              <!-- education -->
-              {% if site.home_option == "education" %}
-                  {% include education.html %}
-              {% endif %}
-      </div>
+
+    <!-- content --> 
+    <div class="card-body" style="text-align: center;">
+          <p>
+          {{ content | markdownify }}
+          </p>      
+          <!-- education -->
+          {% if site.home_option == "education" %}
+                {% include education.html %}
+          {% endif %}
+    </div>
 </div>
 <!-- ABOUT ME SECTION ENDS-->
 
