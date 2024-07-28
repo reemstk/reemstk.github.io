@@ -987,7 +987,6 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     .intro-text {
       font-size: 1rem;
       font-family:Courgette;
-      color: gold;
     }
   @media (min-width: 768px) {
     height: 100%;
