@@ -2,10 +2,11 @@
 {% assign theme = site.data.themes[site.ui_theme] %}
 <html lang="{{ site.lang }}">
   {% include head.html %}
-  <header class="bg-img">
-    {% include nav.html %}
-    <!-- ABOUT ME SECTION -->
-<div class="col-md-12 col-lg-12 col-sm-12">
+  {% include nav.html %}
+  <body>
+    <header>
+      <!-- ABOUT ME SECTION -->
+<div class="bg-img col-md-12 col-lg-12 col-sm-12">
       
     <!-- dynamic text begins -->
     <div class="intro-body">
@@ -35,8 +36,8 @@
     </div>
 </div>
 <!-- ABOUT ME SECTION ENDS-->
-  </header>
-  <body>
+
+    </header>
     <div class="container dumbarton-spacer-sm">
       {{ content }}
     </div>
