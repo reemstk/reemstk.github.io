@@ -1,10 +1,22 @@
 ---
-layout: default
+layout: 
 permalink: education.html
 title: education
 ---
 
 {% assign theme = site.data.themes[site.ui_theme] %} 
+
+---
+layout: 
+permalink: timeline.html
+title: timeline
+---
+<!DOCTYPE html>
+{% assign theme = site.data.themes[site.ui_theme] %}
+<html lang="{{ site.lang }}">
+  {% include head.html %}
+  {% include nav.html %}
+  <body>
 <h5 class="card-title" style="font-family:{{ theme.education-title-font}};font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};">Education</h5>
 <ul class="list-unstyled">
   {% for entry in site.data.education %}
@@ -24,6 +36,10 @@ title: education
   </li>
   {% endfor %}
 </ul>
+
+  </body>
+</html>
+    
 <style>
   h1 {
     color: blue;
