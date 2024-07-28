@@ -85,6 +85,18 @@ a.highlighted:hover {
     border: 3px solid #000000;
     margin-top: 0.2rem;
 }
+
+.img-contact{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    position: relative;
+    object-fit: cover;
+    border: 2px solid darkgoldenrod;
+    margin-top: 0.2rem;
+}
     
 .timeline {
   margin: 4em auto;
