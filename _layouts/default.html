@@ -2,10 +2,9 @@
 {% assign theme = site.data.themes[site.ui_theme] %}
 <html lang="{{ site.lang }}">
   {% include head.html %}
-  <body style="background-color:{{theme.background-color}};" class="bg-img">
+  <body style="background-color:{{theme.background-color}};">
     {% include nav.html %}
-    <div class="dumbarton-spacer-sm"></div>
-    <div class="container">
+    <div class="container dumbarton-spacer-sm bg-img">
       {{ content }}
     </div>
     {% include footer.html %}
