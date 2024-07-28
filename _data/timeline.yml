@@ -78,5 +78,6 @@
     date: 1997 - 2000
     description: Student
     institute: International Indian School, Kingdom of Saudi Arabia
+  - image: /assets/img/icons/baby.png
 # First image of the Timeline
-- timeline-img: /assets/img/icons/baby.png
+#- timeline-img: /assets/img/icons/baby.png
