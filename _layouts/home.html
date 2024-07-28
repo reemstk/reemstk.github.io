@@ -4,47 +4,44 @@ layout: default
 {% assign theme = site.data.themes[site.ui_theme] %}
 
 <!-- ABOUT ME SECTION -->
-<div class="card mx-auto border-0" style="position:relative;background-color:{{theme.home-background-color}};">
-  <div class="row bg-img">
-    
-    <div class="col-md-4">
-      {% if site.animate %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left animate__animated animate__fadeInLeft shadow bg-white" alt="...">
-      {% else %}
-        <img src="{{ site.profile_image }}" class="img-thumbnail float-left" alt="..." style="border-radius:50%; width:300px; height:200px; object-fit:cover; border: 3px solid #149f98;"/>
-      {% endif %}
+<div class="card mx-auto border-0 bg-img col-md-12 col-lg-12 col-sm-12" style="position:relative;background-color:{{theme.home-background-color}};">
+      
+    <!-- dynamic text begins -->
+    <div class="intro intro-body">
+        <span class="intro-text" style="font-family:Courgette;"></span>
     </div>
-       
-    <!-- SECTION -->
-    <div class="col-md-8">      
-      {% if site.animate %}
-        <div class="card-body animate__animated animate__fadeInRight" style="color:{{theme.education-font-color}};">
-      {% else %}
-        <div class="card-body mt-0" style="color:{{theme.education-font-color}};">
-      {% endif %}
-       
-      <p style="color:{{theme.education-font-color}};">{{ content | markdownify}}<p>
-        
+    <!-- dynamic text ends -->
+
+    <!-- profile image begins-->
+    <div class="row">
+        {% if site.animate %}
+          <img src="{{ site.profile_image }}" class="img-me float-left animate__animated animate__fadeInLeft shadow bg-white" alt="...">
+        {% else %}
+          <img src="{{ site.profile_image }}" class="img-me float-left" alt="..." style="border-radius:50%; width:300px; height:200px; object-fit:cover; border: 3px solid #149f98;"/>
+        {% endif %}
+    </div>
+    <!-- profile image ends -->
+    
+    <div class="card-body mt-0 row" style="color:{{theme.education-font-color}};">
+        <!-- content -->  
+        <p style="color:{{theme.education-font-color}};">
+            {{ content | markdownify}}
+        <p>      
         <!-- education -->
         {% if site.home_option == "education" %}
-          {% include education.html %}
+            {% include education.html %}
         {% endif %}
-        
-      </div>       
     </div>
-    </div>
-    <!-- dynamic text -->
-        <div class="intro intro-body">
-          <span class="intro-text" style="font-family:Courgette;"></span>
-        </div>
-  </div>
+</div>
+<!-- ABOUT ME SECTION ENDS-->
 
-    <!-- timeline -->
-    {% if site.home_option == "timeline" %}
-    <div class="row">
-          {% include timeline.html %}
+<!-- timeline -->
+<div class="row">
+{% if site.home_option == "timeline" %}
+    <div class="col-lg-12 col-md-12 col-sm-12">
+    {% include timeline.html %}
     </div>
-    {% endif %}
+{% endif %}
 </div>
 
 <!-- HOME HIGHLIGHTS SECTION  --> 
