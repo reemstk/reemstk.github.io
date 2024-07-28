@@ -27,19 +27,17 @@
       </div>
     </div>
     <!-- profile image ends -->
-
-    <!-- content --> 
-    <div class="card-body" style="text-align: center;">
-          <p>
-          {{ content | markdownify }}
-          </p>      
-    </div>
 </div>
 <!-- ABOUT ME SECTION ENDS-->
 
     </header>
     <div class="container dumbarton-spacer-sm">
-      {{ content }}
+          <!-- content --> 
+    <div class="card-body" style="text-align: center;">
+          <p>
+          {{ content | markdownify }}
+          </p>      
+    </div>
     </div>
     {% include footer.html %}
   </body>
