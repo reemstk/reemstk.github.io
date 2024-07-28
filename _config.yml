@@ -14,6 +14,8 @@ image_alt: favicon    # image description
 # HTML Head #
 #############
 lang: "en"
+welcome_line1: Hi, I'm Reems 👋
+welcome_line2: An erstwhile Full Stack Developer who transitioned into a Product Manager!
 
 ##############################
 # Dynamic Text on the Header #
