@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about.html
-title: About Me
+title: about
 description: Get to know what I'm up too
 header-img: 
 last-updated: 2024-07-26 5:55 PM
