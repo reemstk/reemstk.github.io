@@ -1,7 +1,7 @@
 abyss:
     name: abyss
     nav-color: "#10292e"
-    nav-text: "#149f98"
+    nav-text: "#ffd700"
     title-font: "Noto Sans JP"
     link-font: "#272343"
     link-color: "#272343"
