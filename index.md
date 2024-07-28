@@ -7,5 +7,3 @@ sitemap:
 ---
 ### Hi, I'm Reems 👋
 An erstwhile Full Stack Developer who transitioned into a Product Manager!
-
-<!--<i><a href="/contact.html" class="highlighted">Contact Me</a></i> -->
