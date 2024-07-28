@@ -1,14 +1,14 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
-  url: about.html
+#- title: About
+#  url: about.html
 
 - title: Contact
   url: contact.html
 
-- title: Timeline
-  url: timeline.html
+#- title: Timeline
+#  url: timeline.html
 
-- title: Education
-  url: education.html
+#- title: Education
+#  url: education.html
