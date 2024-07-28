@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: header
 title: 
 date: 2024-07-16 
 sitemap:
