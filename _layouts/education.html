@@ -1,0 +1,32 @@
+---
+permalink: education.html
+title: education
+---
+
+{% assign theme = site.data.themes[site.ui_theme] %} 
+<h5 class="card-title" style="font-family:{{ theme.education-title-font}};font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};">Education</h5>
+<ul class="list-unstyled">
+  {% for entry in site.data.education %}
+  <li class="media">
+    <img src="{{ entry.Icon }}" class="img-fluid" style="aspect-ratio: auto; height: 100px; width: 100px; "alt="Icon for {{ entry.School }}">
+    <div class="media-body">
+      <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">{{ entry.School }}</h5>
+      <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};">
+        <i>{{ entry.Program | replace: '<br>', '<br>' }}</i>
+        <br>
+        {{ entry.StartDate }} - {{ entry.EndDate }}
+      </p>
+      {% if entry.Degree %}
+        <p>{{ entry.Degree }}</p>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+<style>
+  h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+  }
+</style>

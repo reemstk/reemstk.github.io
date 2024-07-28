@@ -1,0 +1,55 @@
+---
+permalink: timeline.html
+title: timeline
+---
+
+<!-- Timeline Start -->
+{% assign theme = site.data.themes[site.ui_theme] %} 
+      <ul class="timeline col-md-4 col-lg-4 col-sm-4">
+        {% for event in site.data.timeline %} {% assign loopindex = forloop.index |
+        modulo: 2 %} {% capture class %} {% if loopindex == 0 %}
+        timeline-inverted {% endif %} {% endcapture %}
+
+        <li class="{{ class }}">
+          <div class="timeline-image">
+            <img
+              class="img-circle img-responsive"
+              src="{{site.baseurl}}{{ event.image }}"
+              alt=""
+            />
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h5>{{ event.date }}</h5>
+            </div>
+            <div class="timeline-body">
+              <h6>{{ event.institute }}</h6>  <!-- | markdownify -->
+              <h6><i> {{ event.description }} </i></h6>
+              <ul style=" font-size: 90%;">
+                {% for content in event.content %}
+                    {% for data in content.data %}                       
+                        <li> {{ data }} </li>
+                        <ul>
+                        {% for item in content.item %}
+                           <li>{{ item }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endfor %}
+                {% endfor %}
+              </ul>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img
+              class="img-circle img-responsive"
+              src="{{site.baseurl}}{{ site.data.timeline.timeline-img }}"
+              alt=""
+            />
+          </div>
+        </li>
+      </ul>
+<!-- Timeline End -->
