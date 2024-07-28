@@ -782,7 +782,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   width: 100px;
   height: 100px;
   margin-left: 0;
-  border: 7px solid #f1f1f1;
+  border: 2px solid aliceblue;
   border-radius: 100%;
   text-align: center;
   color: #fff;
