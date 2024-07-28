@@ -4,5 +4,8 @@ links:
 - title: About
   url: about.html
 
-- title: Contact
+- title: contact
   url: contact.html
+
+- title: timeline
+  url: timeline.html
