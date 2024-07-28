@@ -971,7 +971,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 
 .bg-img{
   height: auto;
-  padding: 100px 0;
+  padding: 80px 0;
   background: url(/assets/img/intro-bg.gif) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
