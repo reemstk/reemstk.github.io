@@ -6,94 +6,89 @@ header-img:
 last-updated: 2024-07-16 10:12 AM
 ---
 {% assign theme = site.data.themes[site.ui_theme] %}
-    <!-- Profile Section -->
-    <div class="profile-section" style="text-align:center; margin-bottom:20px;">
-        <!-- Profile Image -->
-        <div class="flip-box">
-  <div class="flip-box-inner">
-    <div class="flip-box-front">
+<!-- Profile Section -->
+<div class="profile-section" style="text-align:center; margin-bottom:20px;">
+  <!-- Profile Image -->
+  <div class="flip-box">
+    <div class="flip-box-inner">
+      <div class="flip-box-front">
         <img src="/assets/img/avatar/me.jpg" alt="Reems" class="img-contact"/>
-        </div>
-    <div class="flip-box-back">
+      </div>
+      <div class="flip-box-back">
         <img src="/assets/img/avatar/learner.jpg" alt="Reems" class="img-contact"/>
-            </div>
+      </div>
+    </div>
   </div>
+  <h1>Reems</h1>
+  <p>PM</p>
 </div>
-        <h1>Reems</h1>
-        <p>PM</p>
-    </div>
-  
-    <!-- Introduction or About Me Section -->
-    <div class="about-me">
-        <p>Feel free to reach out to me through any of the platforms below OR send me an email for any inquiries or collaborations.</p>
-    </div>
-  
-    <!-- Contact Methods -->
-    <div class="contact-methods" style="background:#f9f9f9; padding:20px; border-radius:10px;">
-        <!-- loop -->
-        {% for item in site.data.contact %}
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class=" {{ item.icon }} fa-fw"></i>
-                <span>{{ item.channel}} : <a href="{{ item.url}}"> {{ item.title }} </span>
-            </span>
-        </div>
-        {% endfor %}
-        <!-- end loop -->
-        <!-- Academic Email
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span class="icon-container" style="color:{{theme.contact-social-color}};">
-                <img src="{{ 'assets/img/acamail.svg' | relative_url }}" alt="Academic Email" class="svg-icon" id="academic-email-icon3">
-            </span>
-            <span>Academic Email: name [at] org [dot] edu</span>
-        </div> -->
-    </div>
+<!-- Introduction or About Me Section -->
+<div class="about-me">
+  <p>Feel free to reach out to me through any of the platforms below OR send me an email for any inquiries or collaborations.</p>
 </div>
-
+<!-- Contact Methods -->
+<div class="contact-methods" style="background:#f9f9f9; padding:20px; border-radius:10px;">
+  <!-- loop -->
+  {% for item in site.data.contact %}
+  <div class="contact-method" style="margin-bottom:10px;">
+    <span style="color:{{theme.contact-social-color}};">
+    <i class=" {{ item.icon }} fa-fw"></i>
+    <span>{{ item.channel}} : <a href="{{ item.url}}"> {{ item.title }} </span>
+    </span>
+  </div>
+  {% endfor %}
+  <!-- end loop -->
+  <!-- Academic Email
+    <div class="contact-method" style="margin-bottom:10px;">
+        <span class="icon-container" style="color:{{theme.contact-social-color}};">
+            <img src="{{ 'assets/img/acamail.svg' | relative_url }}" alt="Academic Email" class="svg-icon" id="academic-email-icon3">
+        </span>
+        <span>Academic Email: name [at] org [dot] edu</span>
+    </div> -->
+</div>
+</div>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        var svgImage = document.getElementById('academic-email-icon3');
-        var svgUrl = svgImage.getAttribute('src');
-
-        fetch(svgUrl)
-            .then(response => response.text())
-            .then(svgData => {
-                var parser = new DOMParser();
-                var svgDom = parser.parseFromString(svgData, 'image/svg+xml');
-
-                // Modify the color to match theme's social color
-                var themeColor = getComputedStyle(svgImage.parentNode).color;
-                svgDom.querySelector('svg').querySelectorAll('[fill]').forEach(el => el.setAttribute('fill', themeColor));
-
-                // Set the vertical alignment of the SVG
-                var svgElement = svgDom.querySelector('svg');
-                svgElement.setAttribute('style', 'vertical-align: middle;');
-
-                // Replace the <img> with the new SVG
-                svgImage.parentNode.replaceChild(svgElement, svgImage);
-            })
-            .catch(error => console.error('Error loading SVG:', error));
-    });
+  document.addEventListener("DOMContentLoaded", function() {
+      var svgImage = document.getElementById('academic-email-icon3');
+      var svgUrl = svgImage.getAttribute('src');
+  
+      fetch(svgUrl)
+          .then(response => response.text())
+          .then(svgData => {
+              var parser = new DOMParser();
+              var svgDom = parser.parseFromString(svgData, 'image/svg+xml');
+  
+              // Modify the color to match theme's social color
+              var themeColor = getComputedStyle(svgImage.parentNode).color;
+              svgDom.querySelector('svg').querySelectorAll('[fill]').forEach(el => el.setAttribute('fill', themeColor));
+  
+              // Set the vertical alignment of the SVG
+              var svgElement = svgDom.querySelector('svg');
+              svgElement.setAttribute('style', 'vertical-align: middle;');
+  
+              // Replace the <img> with the new SVG
+              svgImage.parentNode.replaceChild(svgElement, svgImage);
+          })
+          .catch(error => console.error('Error loading SVG:', error));
+  });
 </script>
-
 <style>
-    .icon-container {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 1.25em; /* Adjust to match FontAwesome icon width */
-        height: 1em; /* Adjust for proper vertical alignment */
-        vertical-align: middle;
-    }
-
-    .icon-container img {
-        width: 100%;
-        height: auto;
-    }
+  .icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25em; /* Adjust to match FontAwesome icon width */
+  height: 1em; /* Adjust for proper vertical alignment */
+  vertical-align: middle;
+  }
+  .icon-container img {
+  width: 100%;
+  height: auto;
+  }
 </style>
 <script>
-function startClippy(){
-    new ClipboardJS('.btn');
-}
-window.onload = startClippy;
+  function startClippy(){
+      new ClipboardJS('.btn');
+  }
+  window.onload = startClippy;
 </script>
