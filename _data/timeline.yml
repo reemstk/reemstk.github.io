@@ -21,16 +21,16 @@
     description: Grad Student (MBA)
     content:
     - data: 
-        - Product Intern at Delhivery
+        - Product Intern at Delhivery - Logistics company
       item: 
         - Addfix (Address disambiguaton service) as a Product
     - data: 
-        - Social Work Intern at Plan@Earth
+        - Social Work Intern at Plan@Earth - Solid Waste Management Trust
       item:
         - Content management for online marketplace of Upcycling Unit
         - Business case for repurposing of End of Life Tires
     - data: 
-        - Member of Marketing Committee (NjM -Not Just Marketing)
+        - Member of Marketing Committee, NjM (Not Just Marketing)
       item: 
         - Spearheaded launch of webisite for Marketing Committee
         - Corportate Project - Market research for Godrej Consumer Products
@@ -52,14 +52,16 @@
     - data: 
         - B.Tech in Electronics and Communication Engineering
     - data:
-       - Elective courses
-      item: 
-        - Medical Electronics
-        - Digital Image Processing
+        - Intern at BSNL - PSU under DoT, India
     - data:
         - Project - Intra prediction of H.264 using MATLAB
     - data:
         - Seminar - Stretchable electronics
+    - data:
+       - Elective courses
+      item: 
+        - Medical Electronics
+        - Digital Image Processing    
     institute: Mahatma Gandhi University
   - image: /assets/img/icons/rps.png
     date: 2001 - 2010
