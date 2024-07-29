@@ -1010,7 +1010,6 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .flip-box {
   background-color: transparent;
   height: 200px;
-  width: 100%;
   perspective: 1000px;
 }
 
