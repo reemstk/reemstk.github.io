@@ -30,8 +30,8 @@ start-delay: 200
 delete-delay: 5000
 me-img: "https://github.com/reemstk.png?size=500"
 lines: # You can add HTML Tags in the Text
-  - text: "Replace fear of the unknown"
-  - text: "with CURIOSITY..."
+  - text: "Replace fear of the Unknown"
+  - text: "with Curiosity to learn more..."
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
