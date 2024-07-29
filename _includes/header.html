@@ -9,7 +9,7 @@
     <!-- dynamic text ends -->
     <!-- profile image begins-->
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 offset-sm-4 profile-text">
+      <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 offset-sm-4">
         {% if site.animate %}
         <img src="{{ site.profile_image }}" class="img-me" alt="...">
         {% else %}
@@ -21,7 +21,7 @@
     </div>
     <!-- profile image ends -->
     <!-- content --> 
-    <div class="card-body" style="text-align: center; color: gold; ">
+    <div class="card-body profile-text">
       <p>{{ site.welcome_line1 }}</p>
       <p>{{ site.welcome_line2 }}</p>
     </div>
