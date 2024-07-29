@@ -12,7 +12,7 @@ title: timeline
 
         <!-- Timeline Start -->
 {% assign theme = site.data.themes[site.ui_theme] %} 
-      <ul class="timeline col-md-4 col-lg-4 col-sm-4" style="color: {{theme.font-color}};">
+      <ul class="timeline col-md-5 col-lg-5 col-sm-5" style="color: {{theme.font-color}};">
         {% for event in site.data.timeline %} {% assign loopindex = forloop.index |
         modulo: 2 %} {% capture class %} {% if loopindex == 0 %}
         timeline-inverted {% endif %} {% endcapture %}
