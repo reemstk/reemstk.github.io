@@ -86,17 +86,6 @@ a.highlighted:hover {
     margin-top: 0.2rem;
 }
 
-.img-contact{
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    max-width: 250px;
-    max-height: 250px;
-    position: relative;
-    object-fit: cover;
-    border: 2px solid darkgoldenrod;
-    margin-top: 0.2rem;
-}
     
 .timeline {
   margin: 4em auto;
@@ -1007,6 +996,17 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 }
 
 /*--------------contact----------------*/
+.img-contact{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    /*position: relative;*/
+    object-fit: cover;
+    border: 2px solid darkgoldenrod;
+}
+
 .flip-box {
   background-color: transparent;
   height: 200px;
