@@ -825,7 +825,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 
 .timeline > li:last-child {
     margin-bottom: 0;
-    min-height: 146px; /*updated on 7/29/2024*/
+    min-height: 100px; /*updated on 7/29/2024*/
 }
 
 .timeline .timeline-heading h4 {
@@ -851,6 +851,22 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   word-wrap: break-word;
 }
 */
+
+/*added on 7/29/2024*/
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .timeline > li {
+        position: relative;
+        margin-bottom: 50px;
+        min-height: 50px;
+        margin-left: -16px;
+    }
+
+    .timeline > li:last-child {
+        margin-bottom: 0;
+        min-height: 80px; 
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -901,6 +917,12 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     padding: 0 30px 20px 20px;
     text-align: left;
   }
+
+    /*updated on 7/29/2024*/
+    .timeline > li:last-child {
+        margin-bottom: 0;
+        min-height: 100px; 
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -979,17 +1001,6 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
-}
-
-/*added on 7/29/2024*/
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) {
-    .timeline > li {
-        position: relative;
-        margin-bottom: 50px;
-        min-height: 50px;
-        margin-left: -16px;
-    }
 }
 
  /* end of timeline */
