@@ -4,190 +4,184 @@ permalink: home.html
 title: home
 ---
 {% assign theme = site.data.themes[site.ui_theme] %}
-
 <!-- timeline -->
 <div class="row">
-{% if site.home_option == "timeline" %}
-    <div class="col-lg-12 col-md-12 col-sm-12">
+  {% if site.home_option == "timeline" %}
+  <div class="col-lg-12 col-md-12 col-sm-12">
     {% include timeline-intro.html %}
-    </div>
-{% endif %}
+  </div>
+  {% endif %}
 </div>
-
 <!-- HOME HIGHLIGHTS SECTION  --> 
 {% if site.animate %}
 <div class="card mx-auto animate__animated animate__slideInUp animate__delay-1s glowing-border" style="max-width: 100%; margin-top: 30px;">
 {% else %}
 <div class="card mx-auto mb-1 border-0"  style="max-width: 100%; margin-top:30px">
 {% endif %}
-
 {% if site.home_option == "education" %}
 <div class="card-header" 
-    style="background-color:{{ theme.home-highlight-background }}; overflow-x: auto; white-space: nowrap;">
-    <ul 
-        class="nav nav-tabs card-header-tabs" 
-        id="test-list" role="tablist" 
-        style="display: flex; flex-wrap: nowrap; overflow-y: hidden;scrollbar-width: thin;">
-      {% for section in site.data.sections %}
-        <li class="nav-item" style="flex: 0 0 auto;">
-          <a 
-              class="nav-link{% if section.first %} active{% endif %}" 
-              id="{{ section.jsid }}" href="#{{section.id}}" 
-              role="tab" aria-controls="{{section.id}}"
-              aria-selected="true" 
-              style="font-family:{{ theme.font}};color:{{ theme.home-highlight-header-text}};">
-              {{section.emoji}} {{section.name}}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+  style="background-color:{{ theme.home-highlight-background }}; overflow-x: auto; white-space: nowrap;">
+  <ul 
+    class="nav nav-tabs card-header-tabs" 
+    id="test-list" role="tablist" 
+    style="display: flex; flex-wrap: nowrap; overflow-y: hidden;scrollbar-width: thin;">
+    {% for section in site.data.sections %}
+    <li class="nav-item" style="flex: 0 0 auto;">
+      <a 
+        class="nav-link{% if section.first %} active{% endif %}" 
+        id="{{ section.jsid }}" href="#{{section.id}}" 
+        role="tab" aria-controls="{{section.id}}"
+        aria-selected="true" 
+        style="font-family:{{ theme.font}};color:{{ theme.home-highlight-header-text}};">
+      {{section.emoji}} {{section.name}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
-  
- <div class="card-body">          
-    <div class="tab-content mt-3">
-      {% for section in site.data.sections %}
-        {% if section.first %}
-          {% if section.name == "Publications" %}
-            <div class="tab-pane active" id="{{section.id}}" role="tabpanel">
-              <p><i>{{section.description}}</i></p>
-              <p class="card-text2">{% bibliography -f papers %}</p>
-            </div>
-          {% else %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
-              <p class="card-text">{{section.description}}</p>
-            </div>
+<div class="card-body">
+  <div class="tab-content mt-3">
+    {% for section in site.data.sections %}
+    {% if section.first %}
+    {% if section.name == "Publications" %}
+    <div class="tab-pane active" id="{{section.id}}" role="tabpanel">
+      <p><i>{{section.description}}</i></p>
+      <p class="card-text2">{% bibliography -f papers %}</p>
+    </div>
+    {% else %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel">
+      <p class="card-text">{{section.description}}</p>
+    </div>
+    {% endif %}
+    {% else %}  
+    {% if section.name == "Presentations" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      <p class="card-text">{% bibliography -f presentations %}</p>
+    </div>
+    {% elsif section.name == "Projects" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      {% for projects in site.data.projects %}
+      <div class="media mt-2">
+        <a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
+        <div class="media-body">
+          <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>
+          <p>{{ projects.date }}</p>
+          {{ projects.description }}
+          {% if projects.tech %}
+          <h6><mark><u>Technologies</u></mark></h6>
+          {% for tech in projects.tech %}
+          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+          {% endfor %}
           {% endif %}
-        {% else %}  
-          {% if section.name == "Presentations" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-              <p class="card-text">{% bibliography -f presentations %}</p>              
-            </div>
-          {% elsif section.name == "Projects" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-                {% for projects in site.data.projects %}
-                <div class="media mt-2">
-                  <a href="{{ projects.link }}"><img src="{{ projects.image }}" class="mr-3 mb-2 img-thumbnail border-0" alt="..."></a>
-                  <div class="media-body">
-                    <h5 class="mt-0"><a href="{{ projects.link }}" class="highlighted">{{ projects.name }}</a></h5>
-                    <p>{{ projects.date }}</p>
-                    {{ projects.description }}
-                    {% if projects.tech %}
-                      <h6><mark><u>Technologies</u></mark></h6>
-                      {% for tech in projects.tech %}
-                      <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
-                      {% endfor %}
-                    {% endif %}
-                  </div>
-                </div>
-                {% endfor %}
-            </div>
-          {% elsif section.name == "Writing Samples" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-                {% for writing_sample in site.data.writingsamples %}
-                <div class="media mt-2">
-                  <div class="media-body">
-                    <h5 class="mt-0"><a href="{{ writing_sample.link }}" class="highlighted">{{ writing_sample.name }}</a></h5>
-                    <p>{{ writing_sample.date }}</p>
-                    <p>{{ writing_sample.description }}</p>
-                    {% if writing_sample.Skills %}
-                      <h6><mark><u>Topics Involved</u></mark></h6>
-                      {% for topic in writing_sample.Skills %}
-                      <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ topic }}</span>
-                      {% endfor %}
-                    {% endif %}
-                  </div>
-                </div>
-                {% endfor %}
-            </div>
-          {% elsif section.name == "Academic Experience" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-                  {% for courses in site.data.acaex %}
-                  <div class="list-group">
-                    <div class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">{{ courses.Role }}</h5>
-                        <p>{{ courses.Class }}</p>
-                        <small>{{ courses.StartDate }} - {{ courses.EndDate }}</small>
-                      </div>
-                      <p class="mb-1">{{ courses.description }}</p>
-                      <small>{{ courses.Department }}</small>
-                    </div>
-                  </div>
-                  {% endfor %}
-            </div>
-            {% elsif section.name == "Research Experience" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-                  {% for research in site.data.resex %}
-                  <div class="list-group">
-                    <div class="list-group-item list-group-item-action">
-                      <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">{{ research.University }}</h5>
-                        <p>{{ research.Role }}</p>
-                        <small>{{ research.StartDate }} - {{ research.EndDate }}</small>
-                      </div>
-                      <p class="mb-1">{{ research.description }}</p>
-                      <small>{{ research.Department }}</small>
-                    </div>
-                  </div>
-                  {% endfor %}
-            </div>
-          {% elsif section.name == "Research Interests" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <p><i>{{section.description}}</i></p>
-              <div class="list-group">
-              {% for topic in site.data.researchinterest %}
-                <button type="button" class="list-group-item text-left">{{ topic.Topic }}</button>
-              {% endfor %}
-              </div>
-            </div>
-            {% elsif section.name == "Coursework" %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
-              <div class="list-group">
-              {% for course in site.data.courses %}
-              <div class="list-group">
-                <div class="list-group-item list-group-item-action">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">{{ course.School }}</h5>
-                    <p>{{course.Number}}: {{course.Course }}</p>
-                    <small>{{course.Semester}}</small>
-                  </div>
-                </div>
-              </div>
-              {% endfor %}
-              </div>
-            </div>
-          {% else %}
-            <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">  
-              <h5 class="card-title text-center"><a href="/{{ section.url }}" class="highlighted">{{section.description}}</a></h5>
-              <p class="card-text">{{ section.content }} </p>              
-            </div>
-          {% endif %}
-        {% endif %}
+        </div>
+      </div>
       {% endfor %}
     </div>
+    {% elsif section.name == "Writing Samples" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      {% for writing_sample in site.data.writingsamples %}
+      <div class="media mt-2">
+        <div class="media-body">
+          <h5 class="mt-0"><a href="{{ writing_sample.link }}" class="highlighted">{{ writing_sample.name }}</a></h5>
+          <p>{{ writing_sample.date }}</p>
+          <p>{{ writing_sample.description }}</p>
+          {% if writing_sample.Skills %}
+          <h6><mark><u>Topics Involved</u></mark></h6>
+          {% for topic in writing_sample.Skills %}
+          <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ topic }}</span>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% elsif section.name == "Academic Experience" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      {% for courses in site.data.acaex %}
+      <div class="list-group">
+        <div class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ courses.Role }}</h5>
+            <p>{{ courses.Class }}</p>
+            <small>{{ courses.StartDate }} - {{ courses.EndDate }}</small>
+          </div>
+          <p class="mb-1">{{ courses.description }}</p>
+          <small>{{ courses.Department }}</small>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% elsif section.name == "Research Experience" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      {% for research in site.data.resex %}
+      <div class="list-group">
+        <div class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{ research.University }}</h5>
+            <p>{{ research.Role }}</p>
+            <small>{{ research.StartDate }} - {{ research.EndDate }}</small>
+          </div>
+          <p class="mb-1">{{ research.description }}</p>
+          <small>{{ research.Department }}</small>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% elsif section.name == "Research Interests" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <p><i>{{section.description}}</i></p>
+      <div class="list-group">
+        {% for topic in site.data.researchinterest %}
+        <button type="button" class="list-group-item text-left">{{ topic.Topic }}</button>
+        {% endfor %}
+      </div>
+    </div>
+    {% elsif section.name == "Coursework" %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <div class="list-group">
+        {% for course in site.data.courses %}
+        <div class="list-group">
+          <div class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+              <h5 class="mb-1">{{ course.School }}</h5>
+              <p>{{course.Number}}: {{course.Course }}</p>
+              <small>{{course.Semester}}</small>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      <h5 class="card-title text-center"><a href="/{{ section.url }}" class="highlighted">{{section.description}}</a></h5>
+      <p class="card-text">{{ section.content }} </p>
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </div>
 </div>
 {% endif %}
-  
 <!-- ANIMATE.JS ANIMATE LIBRARY
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
--->
-
- <!-- JavaScript to enable tab functionality -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous"></script>
+  -->
+<!-- JavaScript to enable tab functionality -->
 <script>
-$(document).ready(function(){
-      $('#test-list a').on('click', function (e) {
-          e.preventDefault();
-          $(this).tab('show');
-      });
-  
-      $('.collapse').collapse();
-      $('.show').show();
-      $('body').scrollspy({ target: '#list-example' });
-      $(".toast").toast("show");
-  });
-  </script>
+  $(document).ready(function(){
+        $('#test-list a').on('click', function (e) {
+            e.preventDefault();
+            $(this).tab('show');
+        });
+    
+        $('.collapse').collapse();
+        $('.show').show();
+        $('body').scrollspy({ target: '#list-example' });
+        $(".toast").toast("show");
+    });
+</script>
