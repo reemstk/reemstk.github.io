@@ -824,7 +824,8 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 }
 
 .timeline > li:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
+    min-height: 150px;
 }
 
 .timeline .timeline-heading h4 {
