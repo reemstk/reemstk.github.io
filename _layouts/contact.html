@@ -34,7 +34,7 @@ last-updated: 2024-07-16 10:12 AM
         {% for item in site.data.contact %}
         <div class="contact-method" style="margin-bottom:10px;">
             <span style="color:{{theme.contact-social-color}};">
-                <i class="fab fas {{ item.icon }} fa-fw"></i>
+                <i class=" {{ item.icon }} fa-fw"></i>
                 <span>{{ item.channel}} : <a href="{{ item.url}}"> {{ item.title }} </span>
             </span>
         </div>
