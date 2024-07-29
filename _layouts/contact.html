@@ -30,40 +30,12 @@ last-updated: 2024-07-16 10:12 AM
   
     <!-- Contact Methods -->
     <div class="contact-methods" style="background:#f9f9f9; padding:20px; border-radius:10px;">
-        <!-- Twitter
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class="fab fa-twitter-square fa-fw"></i>
-                <span>Twitter: <a href="https://twitter.com/rosenkory">@rosenkory</a></span>
-            </span>
-        </div> -->
-        <!-- GitHub -->
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class="fab fa-github-square fa-fw"></i>
-                <span>GitHub: <a href="https://github.com/reemstk">@reemstk</a></span>
-            </span>
-        </div>
-        <!-- LinkedIn -->
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class="fab fa-linkedin fa-fw"></i>
-                <span>LinkedIn: <a href="https://www.linkedin.com/in/reemstk">/in/reemstk</a></span>
-            </span>
-        </div>
-        <!-- Personal Email -->
-        <div class="contact-method" style="margin-bottom:10px;">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class="fab fa-envelope fa-fw"></i>
-                <span>Email: reemstk.cv [at] gmail [dot] com</span>
-            </span>
-        </div>
         <!-- loop -->
         {% for item in site.data.contact %}
         <div class="contact-method" style="margin-bottom:10px;">
             <span style="color:{{theme.contact-social-color}};">
                 <i class="fab fas {{ item.icon }} fa-fw"></i>
-                <span>{{ item.channel}} : <a href="{{ item.url}}"> {{ title }} </span>
+                <span>{{ item.channel}} : <a href="{{ item.url}}"> {{ item.title }} </span>
             </span>
         </div>
         {% endfor %}
@@ -73,14 +45,7 @@ last-updated: 2024-07-16 10:12 AM
             <span class="icon-container" style="color:{{theme.contact-social-color}};">
                 <img src="{{ 'assets/img/acamail.svg' | relative_url }}" alt="Academic Email" class="svg-icon" id="academic-email-icon3">
             </span>
-            <span>Academic Email: krosen5 [at] tulane [dot] edu</span>
-        </div> -->
-        <!-- Phone Number
-        <div class="contact-method">
-            <span style="color:{{theme.contact-social-color}};">
-                <i class="fas fa-phone fa-fw"></i>
-                <span>Phone: <a href="tel:+17322073275">+1 732-207-3275</a></span>
-            </span>
+            <span>Academic Email: name [at] org [dot] edu</span>
         </div> -->
     </div>
 </div>
