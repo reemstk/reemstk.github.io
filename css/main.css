@@ -855,6 +855,11 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 /*added on 7/29/2024*/
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+
+    .timeline {
+        margin: 0rem auto;
+    }
+    
     .timeline > li {
         position: relative;
         margin-bottom: 50px;
