@@ -83,7 +83,7 @@ a.highlighted:hover {
     position: relative;
     object-fit:contain; /*cover*/
     border: 3px solid #000000;
-    margin-top: 0.2rem;
+    /*margin-top: 0.2rem; */
 }
 
     
@@ -324,7 +324,11 @@ a.highlighted:hover {
 .resp-sharing-button--hackernews {
 background-color: #FF6600
 }
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:focus {   
+    background-color: #FB6200
+}
 
 .resp-sharing-button--vk {
   background-color: #507299
@@ -493,8 +497,7 @@ border: 0px;
 border-radius: 0px; 
 }   
 
-.panel-profile-img 
-{ 
+.panel-profile-img { 
 max-width: 250px; 
 margin-top: -160px; 
 margin-bottom: 5px; 
@@ -502,8 +505,7 @@ border: 3px solid #fff;
 border-radius: 0%; 
 }
 
-.heading-footer 
-{ 
+.heading-footer { 
 background-image: url(/assets/img/publications.png); 
 background-size: cover; 
 height: 175px; 
@@ -513,8 +515,7 @@ border: 0px;
 border-radius: 0px; 
 }   
  
-.panel-profile-img 
-{ 
+.panel-profile-img { 
 max-width: 250px; 
 margin-top: -160px; 
 margin-bottom: 5px; 
@@ -577,40 +578,40 @@ border-radius: 0%;
 }
 
 .blogcard:hover{
-   transform: scale(1.05);
-box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .blogcard h3{
-font-weight: 600;
+    font-weight: 600;
 }
 
 .blogcard img{
-position: absolute;
-top: 20px;
-right: 15px;
+    position: absolute;
+    top: 20px;
+        right: 15px;
 max-height: 120px;
 }
 
 .card-1{
-background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
 }
 
 .card-2{
- background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+    background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
     background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
+    background-position: right;
+    background-size: 80px;
 }
 
 .card-3{
- background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+    background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
     background-repeat: no-repeat;
-  background-position: right;
-  background-size: 80px;
+    background-position: right;
+    background-size: 80px;
 }
 
 @media(max-width: 990px){
@@ -946,8 +947,8 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   }
 
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
+ /*   width: 170px;
+    height: 170px; */
     margin-left: -85px;
   }
 
