@@ -2,9 +2,6 @@
 layout: page
 ---
 {% assign theme = site.data.themes[site.ui_theme] %}
-
-
-
 <div class="blogcard {{ page.card }} mb-4 mt-4" style="width: 100%;">
   <div class="card-body">
     <h5 class="card-title text-center" style="font-size:{{ theme.post-tag-size }};">{{ page.tag }}</h5>
@@ -13,10 +10,8 @@ layout: page
     {% include social-cards-copy.html %}
   </div>
 </div>
-
 <div class="card border-0" style="width: 100%;">
   <div class="card-body">
     <p class="card-text">{{ content | markdownify }}</p>
   </div>
 </div>
-
