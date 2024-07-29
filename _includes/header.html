@@ -1,33 +1,30 @@
 {% assign theme = site.data.themes[site.ui_theme] %} 
 <header>
-      <!-- ABOUT ME SECTION -->
-<div class="bg-img col-md-12 col-lg-12 col-sm-12">
-      
+  <!-- ABOUT ME SECTION -->
+  <div class="bg-img col-md-12 col-lg-12 col-sm-12">
     <!-- dynamic text begins -->
     <div class="intro-body">
-        <span class="intro-text"></span>
+      <span class="intro-text"></span>
     </div>
     <!-- dynamic text ends -->
-
     <!-- profile image begins-->
     <div class="row">
       <div class="col-lg-4 col-md-4 col-sm-4 offset-lg-4 offset-md-4 offset-sm-4" style="text-align: center;">
         {% if site.animate %}
-          <img src="{{ site.profile_image }}" class="img-me" alt="...">
+        <img src="{{ site.profile_image }}" class="img-me" alt="...">
         {% else %}
-          <img src="{{ site.profile_image }}" class="img-me float-left" alt="..." 
-                style="border-radius:50%; width:300px; height:200px; object-fit:cover; border: 3px solid #149f98;"
-            />
+        <img src="{{ site.profile_image }}" class="img-me float-left" alt="..." 
+          style="border-radius:50%; width:300px; height:200px; object-fit:cover; border: 3px solid #149f98;"
+          />
         {% endif %}
       </div>
     </div>
     <!-- profile image ends -->
-
     <!-- content --> 
     <div class="card-body" style="text-align: center; color: gold; ">
-          <p>{{ site.welcome_line1 }}</p>
-          <p>{{ site.welcome_line2 }}</p>
+      <p>{{ site.welcome_line1 }}</p>
+      <p>{{ site.welcome_line2 }}</p>
     </div>
-</div>
-<!-- ABOUT ME SECTION ENDS-->
+  </div>
+  <!-- ABOUT ME SECTION ENDS-->
 </header>
