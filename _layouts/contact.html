@@ -115,36 +115,6 @@ last-updated: 2024-07-16 10:12 AM
         width: 100%;
         height: auto;
     }
-
-.flip-box {
-  background-color: transparent;
-  height: 250px;
-  perspective: 1000px;
-}
-
-.flip-box-inner {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-back {
-  transform: rotateY(180deg);
-}
 </style>
 <script>
 function startClippy(){
