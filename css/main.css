@@ -1194,7 +1194,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 .bg-img {
   height: auto;
   padding: 100px 0;
-  width: 100%
+  width: 100%;
   background: url(/assets/img/intro-bg.gif) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
