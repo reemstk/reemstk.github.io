@@ -1003,7 +1003,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     max-width: 250px;
     max-height: 250px;
     /*position: relative;*/
-    object-fit: cover;
+    object-fit: contain;
     border: 2px solid darkgoldenrod;
 }
 
