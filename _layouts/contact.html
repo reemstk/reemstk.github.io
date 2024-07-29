@@ -54,10 +54,19 @@ last-updated: 2024-07-16 10:12 AM
         <!-- Personal Email -->
         <div class="contact-method" style="margin-bottom:10px;">
             <span style="color:{{theme.contact-social-color}};">
-                <i class="fas fa-envelope fa-fw"></i>
+                <i class="fab fa-envelope fa-fw"></i>
                 <span>Email: reemstk.cv [at] gmail [dot] com</span>
             </span>
         </div>
+        <!-- loop -->
+        {% for item in site.data.contact %}
+        <div class="contact-method" style="margin-bottom:10px;">
+            <span style="color:{{theme.contact-social-color}};">
+                <i class="fab {{ item.icon }} fa-fw"></i>
+                <span>{{ item.channel}} : {{ item.url}} </span>
+            </span>
+        </div>
+        {% endfor %}
         <!-- Academic Email
         <div class="contact-method" style="margin-bottom:10px;">
             <span class="icon-container" style="color:{{theme.contact-social-color}};">
