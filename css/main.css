@@ -1210,6 +1210,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   .intro-text {
     font-size: 1rem;
     font-family: Courgette;
+    color: goldenrod;
   }
   /* Medium devices (landscape tablets, 768px and up) */
   @media (min-width: 768px) {
