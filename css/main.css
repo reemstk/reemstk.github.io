@@ -851,6 +851,8 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   word-wrap: break-word;
 }
 */
+
+/* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -901,6 +903,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   }
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
@@ -941,9 +944,11 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
   }
 }
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
+    margin-left: 20px; /*added on 7/29/2024*/
   }
 
   .timeline > li .timeline-panel {
@@ -975,6 +980,18 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
     padding: 0 100px 20px 20px;
   }
 }
+
+/*added on 7/29/2024*/
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .timeline > li {
+        position: relative;
+        margin-bottom: 50px;
+        min-height: 50px;
+        margin-left: -16px;
+    }
+}
+
  /* end of timeline */
 
 .bg-img{
@@ -996,6 +1013,7 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
       font-size: 1rem;
       font-family:Courgette;
     }
+    /* Medium devices (landscape tablets, 768px and up) */
   @media (min-width: 768px) {
     height: 100%;
     padding: 0;
