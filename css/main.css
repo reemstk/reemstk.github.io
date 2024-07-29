@@ -907,6 +907,9 @@ $font-family: Proxima, Helvetica, Arial, sans-serif;
 
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
+    /*added on 7/29/2024*/
+    margin-left: 75%;
+    margin-right: 70%;
   }
 
   .timeline > li .timeline-image {
