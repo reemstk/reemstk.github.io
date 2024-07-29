@@ -15,7 +15,7 @@ image_alt: favicon    # image description
 #############
 lang: "en"
 welcome_line1: Hi, I'm Reems 👋
-welcome_line2: An erstwhile Full Stack Developer who transitioned into a Product Manager!
+welcome_line2: An erstwhile Full Stack Developer, who transitioned into a Product Manager!
 
 ##############################
 # Dynamic Text on the Header #
@@ -30,7 +30,7 @@ start-delay: 200
 delete-delay: 5000
 me-img: "https://github.com/reemstk.png?size=500"
 lines: # You can add HTML Tags in the Text
-  - text: "Replace fear of the UnKnown"
+  - text: "Replace fear of the Unknown"
   - text: "with Curiosity to Learn more..."
 
 # =======================================#
