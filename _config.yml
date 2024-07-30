@@ -2,7 +2,7 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: REEMSTK
+title: REEMS
 email: reemstk.cv@gmail.com
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
@@ -37,6 +37,7 @@ lines: # You can add HTML Tags in the Text
 # -----------SITE SETTINGS---------------#
 #========================================#: 
 author: Reems Thomas Kottackal
+author_short: Reems
 profile_image: /assets/img/avatar/me - s.jpg 
 snippet:
 twitter: 
