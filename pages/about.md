@@ -34,6 +34,6 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 |_Technology Analyst_| MySQL, HP Application Lifecycle Manager - ALM, Balasmiq, InVision, Axure, Camatasia, Postman, SQL Server Management Studio, MS Project, BeyondCompare |
 |_Senior Engineer_| Team Foundation Server - TFS, Eclipse IDE, Tomcat, MySQL, Java 8, Spring Boot, MySQL, CronTrigger, Selenium, Drools, Bootstrap, AngularJS, Angular2, D3.js, CSS3, jQuery, JavaScript, Typescript |
 |_Systems Engineer_| Adobe Experience Manager - AEM CQ5, SOAP UI, SVN Tortoise, Putty, DB2, Atlassian Jira, Java 7, Spring MVC, Hibernate, Maven, cURL Script|
-|_Systems Engineer Trainee_| OOPs, Java, JSF, JSP, HTML, RDBMS |
+|_Systems Engineer Trainee_| OOPs, Java 6, JSF, JSP, HTML, RDBMS |
 |_Undergrad Student_| Embedded C, C++, MATLAB, Verilog, Eagle, Proteus, MathWorks Simulink |
 |_High School Student_| Visual Basic |
