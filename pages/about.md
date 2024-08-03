@@ -18,8 +18,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 
 
 ##### Some tech chops I learnt over time
-
-
+---
 | Time Period | Tools & Technology |
 |-------------|--------------------|
 |_High School_| Visual Basic |
