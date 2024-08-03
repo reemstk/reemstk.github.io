@@ -17,7 +17,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 > 3. An open mind saves a lot of effort and aids learning.
 
 
-##### Some tech chops I learnt over time
+##### Some tech chops I remember learning
 ---
 
 | Time Period / Role | Tools & Technology |
