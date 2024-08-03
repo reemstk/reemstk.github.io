@@ -1,8 +1,8 @@
 nav_list_title: Navigation List
 links:
 
-#- title: About
-#  url: about.html
+- title: About
+  url: about.html
 
 - title: Contact
   url: contact.html
