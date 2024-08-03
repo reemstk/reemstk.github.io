@@ -16,10 +16,10 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 > 2. Pivots need not necessarily have an ultimately bad result, and might lead to growth in unexpected ways!
 > 3. An open mind saves a lot of effort and aids learning.
 
-
+</br>
+</br>
 ##### Some tech chops I learnt/used over time
-
-
+</br>
 | Time Period | Tools & Technology |
 |-------------|--------------------|
 |_High School_| Visual Basic |
