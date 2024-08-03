@@ -7,7 +7,7 @@ header-img:
 last-updated: 2024-07-26 5:55 PM
 ---
 
-<h1 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h1>
+<h3 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h3>
 
 
 I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India in 2014.
