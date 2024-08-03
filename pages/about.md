@@ -7,7 +7,7 @@ header-img:
 last-updated: 2024-07-26 5:55 PM
 ---
 
-<h1 class="mx-auto" style="font-family:Courgette;">{{ page.description }}</h1>
+<h1 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h1>
 
 
 I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India in 2014.
@@ -17,7 +17,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 > 2. Pivots need not necessarily have an ultimately bad result, and might lead to growth in unexpected ways!
 > 3. An open mind saves a lot of effort and aids learning.
 
-###### Certifications & Tech Chops
+##### Certifications & Tech Chops
 ---
 * PMP - Project Management Professional by PMI
 * Six Sigma Green Belt by KPMG
