@@ -27,5 +27,5 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 |**_Technology Analyst_**| Team Foundation Server - TFS, Eclipse IDE, Tomcat, MySQL, HP Application Lifecycle Manager - ALM, Balasmiq, InVision, Axure, Camatasia, Postman, Java 8, Spring Boot, MySQL, Selenium, Drools, Bootstrap, AngularJS, Angular2, D3.js, CSS3, SQL Server Management Studio, MS Project|
 |**_Grad School_**| IBM SPSS, SAS Enterprise Miner, Tableau, Canva, WordPress, Zotero|
 |**_Technology Product Manager_**| Confluence, Salesforce Financial Management Cloud - SFMC, Now Mobile, Figma, WebFlow|
-|**_Product Manager_**| Kusto query Language - KQL, PowerApp, PowerBI, Azure DevOps - ADO, Azure Dta Explorer - ADX, DAX, Whiteboard, Excalidraw, Webgraphviz, SharePoint Sites, ClipChamp, GitHub|
+|**_Product Manager_**| Kusto query Language - KQL, PowerApp, PowerBI, Azure DevOps - ADO, Azure Data Explorer - ADX, DAX, Whiteboard, Excalidraw, Webgraphviz, SharePoint Sites, ClipChamp, GitHub|
 
