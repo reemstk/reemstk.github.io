@@ -11,16 +11,21 @@ last-updated: 2024-07-26 5:55 PM
 
 I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru in 2014.
 
-*This is an example of code*
-```js
-<script>
-    $(document).ready(function() {
-        $(".toast").toast('show');
-    });
-</script>
-```
+2 things I learnt the hard way:
+1. Never postpone learning; it will always find its way back to you.
+2. Pivots may not necessarily have an ultimately bad result, aka, God will make a way where there seems to be no way!
 
-Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
 
-Egestas congue quisque egestas diam in arcu cursus euismod quis. Ullamcorper eget nulla facilisi etiam dignissim diam. Nunc pulvinar sapien et ligula ullamcorper. Turpis in eu mi bibendum. Faucibus scelerisque eleifend donec pretium vulputate. Euismod lacinia at quis risus sed vulputate odio ut enim. Phasellus faucibus scelerisque eleifend donec pretium. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quis auctor elit sed vulputate. Eu mi bibendum neque egestas. Eu turpis egestas pretium aenean pharetra magna ac. Augue ut lectus arcu bibendum at. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Fermentum leo vel orci porta non pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Amet commodo nulla facilisi nullam vehicula ipsum a arcu.
+#### Few tech chops I learnt/used over time:
+
+| Time Period | Tools & Technology |
+|------|------|
+|**_High School_**| Visual Basic|
+|**_UnderGrads_**| C++, MATLAB, Eagle, Proteus|
+|**_Systems Engineer Trainee_**| OOPs, Java, HTML, RDBMS|
+|**_Systems Engineer_**| AEM/Adobe Experience Manager - CQ5 (CMS), SOAP UI, SVN Tortoise, Putty, DB2, Jira, Java 7, Spring MVC, Hibernate, Maven, cURL Script|
+|**_Technology Analyst_**| Team Foundation Server - TFS, Eclipse IDE, Tomcat, MySQL, HP Application Lifecycle Manager - ALM, Balasmiq, InVision, Axure, Camatasia, Postman, Java 8, Spring Boot, MySQL, Selenium, Drools, Bootstrap, AngularJS, Angular2, D3.js, CSS3, SQL Server Management Studio, MS Project|
+|**_Grad School_**| IBM SPSS, SAS Enterprise Miner, Tableau, Canva, WordPress, Zotero|
+|**_Technology Product Manager_**| Confluence, Salesforce Financial Management Cloud - SFMC, Now Mobile, Figma, WebFlow|
+|**_Product Manager_**| Kusto query Language - KQL, PowerApp, PowerBI, Azure DevOps - ADO, Azure Dta Explorer - ADX, DAX, Whiteboard, Excalidraw, Webgraphviz, SharePoint Sites, ClipChamp, GitHub|
 
