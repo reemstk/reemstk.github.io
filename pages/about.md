@@ -2,20 +2,18 @@
 layout: page
 permalink: /about.html
 title: about
-description: learner for life
+description: Learner for Life
 header-img: 
 last-updated: 2024-07-26 5:55 PM
 ---
 
-<h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
+<h1 class="mx-auto" style="font-family:Courgette;">{{ page.description }}</h1>
 
-I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru in 2014.
+I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India in 2014.
 
 Things I learnt the hard way:
 1. Never postpone learning; it will always find its way back to you...be it Mathematics, Tools, Frameworks, Management of time and/ finances...anything
 2. Pivots may not necessarily have an ultimately bad result, aka, God will make a way where there seems to be no way!
-
-***_Be a Learner for Life_***
 
 #### Some of the tech chops I learnt/used over time:
 
