@@ -20,7 +20,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 ##### Some tech chops I learnt over time
 ---
 
-| Time Period | Tools & Technology |
+| Time Period / Role | Tools & Technology |
 |-------------|--------------------|
 |_High School_| Visual Basic |
 |_UnderGrad_| C++, MATLAB, Eagle, Proteus |
