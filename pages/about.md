@@ -16,6 +16,12 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 > 2. Pivots need not necessarily have an ultimately bad result, and might lead to growth in unexpected ways!
 > 3. An open mind saves a lot of effort and aids learning.
 
+##### Certifications/Licenses
+---
+* PMP - Project Management Professional by PMI
+* Six Sigma Green Belt by KPMG
+* Azure Fundamentals certification by Microsoft
+* Java professional certification by Infosys
 
 ##### Some tech chops I remember learning
 ---
