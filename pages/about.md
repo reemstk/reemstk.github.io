@@ -11,14 +11,15 @@ last-updated: 2024-07-26 5:55 PM
 
 I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India in 2014.
 
-Things I learnt the hard way:
-1. Never postpone learning; it will always find its way back to you...be it Mathematics, Tools, Frameworks, Management of time and/ finances...anything
-2. Pivots may not necessarily have an ultimately bad result, aka, God will make a way where there seems to be no way!
+> Life lessons
+> 1. Never postpone learning; it will always find its way back to you...
+> 2. Pivots need not necessarily have an ultimately bad result, and might lead to growth in unexpected ways!
+> 3. An open mind saves a lot of effort and aids learning.
 
-#### Some of the tech chops I learnt/used over time:
+### Some tech chops I learnt/used over time
 
 | Time Period | Tools & Technology |
-|------|------|
+|-------------|--------------------|
 |**_High School_**| Visual Basic |
 |**_UnderGrad_**| C++, MATLAB, Eagle, Proteus |
 |**_Systems Engineer Trainee_**| OOPs, Java, HTML, RDBMS |
