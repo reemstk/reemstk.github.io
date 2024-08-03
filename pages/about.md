@@ -14,7 +14,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 
 > Life lessons
 > 1. Never postpone learning; it will always find its way back to you...
-> 2. Pivots need not necessarily have an ultimately bad result, and might lead to growth in unexpected ways!
+> 2. Pivots need not necessarily have an ultimately bad result; it might lead to growth in unexpected ways!
 > 3. An open mind saves a lot of effort and aids learning.
 
 ##### Certifications & Tech Chops
