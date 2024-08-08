@@ -108,6 +108,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-scholar
+  - jekyll-sitemap
   - jekyll-environment-variables
 sass:
   sass_dir: _sass
