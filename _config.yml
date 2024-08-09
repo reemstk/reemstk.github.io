@@ -117,10 +117,10 @@ sass:
 
 include:
   - _posts
-
-exclude:
   - .sass-cache/
   - .jekyll-cache/
+
+exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
