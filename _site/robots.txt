@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /education.html
-
-Sitemap: https://reemstk.github.io/sitemap.xml
