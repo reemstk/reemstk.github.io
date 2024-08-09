@@ -6,7 +6,7 @@ title: REEMS
 email: reemstk.cv@gmail.com
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://reemstk.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reemstk.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/icons/favicon.ico              # used to generate site link preview
 image_alt: favicon    # image description
 
