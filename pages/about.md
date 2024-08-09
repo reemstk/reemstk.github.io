@@ -22,7 +22,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 * PMP - Project Management Professional by PMI
 * Six Sigma Green Belt by KPMG
 * Azure Fundamentals certification by Microsoft
-* Java professional certification by Infosys
+* Infosys certified Java Programmer
 
 ---
 
