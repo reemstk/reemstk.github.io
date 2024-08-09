@@ -1,26 +1,43 @@
-#- name: Publications
-#  id: publications
-#  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#  url: publications.html
-#  first: true
+- name: Publications
+  id: publications
+  description: Here is a list of my publications.
+  url: publications.html
+  first: true
   
-#- name: Coursework
-#  id: courses
-#  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#  content: 
-#  first: false
+- name: Coursework
+  id: courses
+  description: Highlighted below are courses relevant to my interest.
+  content: 
+  first: false
 
-#- name: Teaching
-#  id: teaching
-#  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#  content: 
-#  url: teaching.html
-#  first: false
+- name: Academic Experience
+  id: acaex
+  description:
+  content: 
+  url: acaex.html
+  first: false
 
-#- name: Projects
-#  id: projects
-#  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#  content: 
-#  url: projects.html
-#  first: false
+- name: Projects
+  id: projects
+  description: Below, you'll find a collection of key projects that showcase my skills and interests. 
+  content: 
+  url: projects.html
+  first: false
 
+- name: Research Interests
+  id: researchinterest
+  description: 
+  content: 
+  first: false
+
+- name: Writing Samples
+  id: writingsamples
+  description: Here is a list of relevant writing samples. 
+  content: 
+  first: false
+
+- name: Research Experience
+  id: resex
+  description: Below is a showcase of my extensive research experiences, where I have delved into diverse fields, contributing to groundbreaking advancements and acquiring a profound understanding of Artificial Intelligence.
+  url: resex.html
+  first: false

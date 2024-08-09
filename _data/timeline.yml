@@ -1,24 +1,85 @@
 ############
 # Timeline #
 ############
-#events:
+#acad-events:
   - image: /assets/img/icons/ms.png
     date: May 2022 - Today
-    description: PM
+    description: Product Manager
+    institute: Microsoft
   - image: /assets/img/icons/idfc.jpg
     date: July 2021 - May 2022
-    description: PM
+    description: Technology Product Manager
+    content:
+    - data:
+        - Management Trainee in Corporate Technology
+        - Product Manager for Employee Experience Mobile App
+        - Product Manager for Banking Console
+        - Founding team of Automation Testing CoE
+    institute: IDFC First Bank
   - image: /assets/img/icons/nmims.png
-    date: July 2019 - May 2021
-    description: Grad Student at NMIMS
+    date: Jun 2019 - May 2021
+    description: Grad Student (MBA)
+    content:
+    - data: 
+        - Product Intern at Delhivery - Logistics company
+      item: 
+        - Addfix (Address disambiguaton service) as a Product
+    - data: 
+        - Social Work Intern at Plan@Earth - Solid Waste Management Trust
+      item:
+        - Content management for online marketplace of Upcycling Unit
+        - Business case for repurposing of End of Life Tires
+    - data: 
+        - Member of Marketing Committee, NjM (Not Just Marketing)
+      item: 
+        - Launched website for Marketing Committee
+        - Corporate Project - Market research for Godrej Consumer Products
+    institute: NMIMS - Mumbai, IN
   - image: /assets/img/icons/infosys.png
-    date: June 2014 - June 2019
-    description: Software Engineer at Infosys
+    date: Jul 2014 - Mar 2019
+    description: Technology Analyst
+    content:
+    - data:
+        - Product Owner for Infosys Test Data Management solution
+        - Full stack developer at Infosys SET Labs (R&D for Validation servies CoE)
+        - CRM application migration for a major US based Newsprint company
+        - Digital Content Management for a Fortune 500 Pharmaceutial company
+    institute: Infosys
   - image: /assets/img/icons/mgu.png
-    date: July 2010 - May 2014
-    description: Undergrad Student at MGU
-  - image: 
-    date: June 2000 - Mar 2010
-    description: Student at Rajagiri
+    date: Jun 2010 - Jun 2014
+    description: Undergrad Student
+    content:
+    - data: 
+        - B.Tech in Electronics and Communication Engineering
+    - data:
+       - Elective courses
+      item: 
+        - Medical Electronics
+        - Digital Image Processing 
+    - data:
+        - Project - Intra prediction of H.264 using MATLAB
+    - data:
+        - Seminar - Stretchable electronics   
+    - data:
+        - Intern at BSNL - PSU under DoT, India
+    institute: Mahatma Gandhi University, IN
+  - image: /assets/img/icons/rps.png
+    date: 2001 - 2010
+    description: Student
+    content:
+    - data: 
+        - 12th Grade Major Subjects
+      item: 
+        - Physics, Chemistry, Biology, Mathematics, English
+    institute: Rajagiri Public School, IN
+  - image: /assets/img/icons/vps.png
+    date: 2000 - 2001
+    description: Student
+    institute: Viswajyothi Public School, IN
+  - image: /assets/img/icons/iis.jpg
+    date: 1997 - 2000
+    description: Student
+    institute: International Indian School, KSA
+  - image: /assets/img/icons/baby.png
 # First image of the Timeline
-timeline-img: /assets/img/icons/mgu.png
+#- timeline-img: /assets/img/icons/baby.png

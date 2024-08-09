@@ -1,6 +1,6 @@
-- School: Harvard
+- School: ABC
   Degree: 
-  Program: POL 240/SPI 312 International Relations
+  Program: Lorem ipsum
   id: POL-240/SPI-312-International-Relations
   data-id: data-harv1
   heading-id: head-harv1
@@ -10,9 +10,9 @@
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- School: Princeton
+- School: Lorem ipsum
   Degree: 
-  Program: POL 380 Human Rights
+  Program: Lorem ipsum
   id: POL-380-Human-Rights
   data-id: data-princ1   
   heading-id: head-princ1  # This can be any random string as long as each teaching set has a unique one. 

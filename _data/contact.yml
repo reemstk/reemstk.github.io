@@ -1,0 +1,12 @@
+- channel: GitHub
+  url: https://github.com/reemstk
+  title: reemstk
+  icon: fab fa-github-square
+- channel: Email
+  url: reemstk.cv@gmail.com
+  title: reemstk.cv [at] gmail [dot] com
+  icon: fas fa-envelope
+- channel: LinkedIn
+  url: https://www.linkedin.com/in/reemstk
+  title: /in/reemstk
+  icon: fab fa-linkedin

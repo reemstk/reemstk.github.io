@@ -1,27 +1,39 @@
 ---
 layout: page
 permalink: /about.html
-title: About Me
-description: Get to know what I'm up too
+title: about
+description: Learner for Life
 header-img: 
-last-updated: 2020-10-30 5:55 PM
+last-updated: 2024-07-26 5:55 PM
 ---
 
-<h1 class="mx-auto" style="font-family:Courgette;">{{ page.title }}</h1>
+<h3 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h3>
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero id faucibus nisl tincidunt eget. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Duis convallis convallis tellus id interdum velit. Ultricies mi eget mauris pharetra et. Odio pellentesque diam volutpat commodo sed egestas. Eu mi bibendum neque egestas congue quisque. Augue lacus viverra vitae congue eu consequat ac felis donec. Ultrices vitae auctor eu augue ut lectus arcu. Eu consequat ac felis donec et. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper eget.
+I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India in 2014.
 
+> Life lessons
+> 1. Never postpone learning; it will always find its way back to you...
+> 2. Pivots need not necessarily have an ultimately bad result; it might lead to growth in unexpected ways!
+> 3. An open mind saves a lot of effort and aids learning.
 
-*This is an example of code*
-```js
-<script>
-    $(document).ready(function() {
-        $(".toast").toast('show');
-    });
-</script>
-```
+##### Certifications & Tech Chops
+---
+* PMP - Project Management Professional by PMI
+* Six Sigma Green Belt by KPMG
+* Azure Fundamentals certification by Microsoft
+* Java professional certification by Infosys
 
-Semper eget duis at tellus at urna condimentum. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Suspendisse faucibus interdum posuere lorem ipsum dolor. Volutpat commodo sed egestas egestas fringilla phasellus faucibus. Maecenas accumsan lacus vel facilisis volutpat est velit egestas dui. Massa placerat duis ultricies lacus. Fermentum et sollicitudin ac orci phasellus egestas tellus. Placerat orci nulla pellentesque dignissim enim sit amet. Tellus mauris a diam maecenas sed enim. Tortor vitae purus faucibus ornare. Lectus quam id leo in vitae turpis massa. Porttitor eget dolor morbi non arcu risus quis varius. Felis eget nunc lobortis mattis aliquam. Integer vitae justo eget magna fermentum.
+---
 
-Egestas congue quisque egestas diam in arcu cursus euismod quis. Ullamcorper eget nulla facilisi etiam dignissim diam. Nunc pulvinar sapien et ligula ullamcorper. Turpis in eu mi bibendum. Faucibus scelerisque eleifend donec pretium vulputate. Euismod lacinia at quis risus sed vulputate odio ut enim. Phasellus faucibus scelerisque eleifend donec pretium. Non enim praesent elementum facilisis leo vel fringilla est ullamcorper. Quis auctor elit sed vulputate. Eu mi bibendum neque egestas. Eu turpis egestas pretium aenean pharetra magna ac. Augue ut lectus arcu bibendum at. Urna condimentum mattis pellentesque id nibh tortor id aliquet lectus. Fermentum leo vel orci porta non pulvinar. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Amet commodo nulla facilisi nullam vehicula ipsum a arcu.
-
+| Time Period / Role | Tools & Technology |
+|-------------|--------------------|
+|_Product Manager_| Kusto Query Language - KQL, PowerApp, PowerBI, Power Automate, Azure DevOps - ADO, Azure Data Explorer - ADX, DAX, Whiteboard, Excalidraw, Webgraphviz, SharePoint Sites, ClipChamp, GitHub |
+|_Technology Product Manager_| Salesforce Financial Management Cloud - SFMC, Now Mobile, Figma, WebFlow, Confluence |
+|_Grad School Student_| IBM SPSS, SAS Enterprise Miner, Tableau, Canva, WordPress, Zotero |
+|_Technology Analyst_| MySQL, HP Application Lifecycle Manager - ALM, Balasmiq, InVision, Axure, Camatasia, Postman, SQL Server Management Studio, MS Project, BeyondCompare |
+|_Senior Engineer_| REST, MySQL, Java 8, Spring Boot, MySQL, CronTrigger, Selenium, Drools, Bootstrap, AngularJS, Angular2, D3.js, CSS3, jQuery, JavaScript, Typescript, Team Foundation Server - TFS, Eclipse IDE, Tomcat |
+|_Systems Engineer_| Java 7, Spring MVC, Hibernate, log4j, cURL Script, Maven, Adobe Experience Manager - AEM CQ5, SOAP UI, SVN Tortoise, Putty, DB2, Atlassian Jira |
+|_Systems Engineer Trainee_| OOPs, Java 6, JSF, JSP, HTML, RDBMS |
+|_Undergrad Student_| Embedded C, C++, MATLAB, Verilog, Eagle, Proteus, MathWorks Simulink |
+|_High School Student_| Visual Basic |

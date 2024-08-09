@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://reemstk.github.io/sitemap.xml
-

@@ -2,11 +2,11 @@
 # -----------BASE SETTINGS---------------#
 #========================================#
 
-title: Home 
+title: REEMS
 email: reemstk.cv@gmail.com
 description: personal profile
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://reemstk.github.io/"          # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reemstk.github.io"          # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/icons/favicon.ico              # used to generate site link preview
 image_alt: favicon    # image description
 
@@ -14,17 +14,31 @@ image_alt: favicon    # image description
 # HTML Head #
 #############
 lang: "en"
-favicon: "/img/favicon.ico"
-################
-# Header layout #
-################
-background-img: "../img/intro-bg.gif"
+welcome_line1: Hi, I'm Reems 👋
+welcome_line2: An erstwhile Full Stack Developer, who transitioned into a Product Manager!
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: False # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+me-img: "https://github.com/reemstk.png?size=500"
+lines: # You can add HTML Tags in the Text
+  - text: "Replace fear of the Unknown"
+  - text: "with Curiosity to Learn more..."
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: Reems
-profile_image: /assets/img/avatar/me.jpg 
+author: Reems Thomas Kottackal
+author_short: Reems
+profile_image: /assets/img/avatar/me - s.jpg 
 snippet:
 twitter: 
 github: reemstk
@@ -42,7 +56,7 @@ phonenumber:
 #========================================#
 # --------- UI THEMES -------------------#
 #========================================#
-ui_theme: abyss                                 # abyss Create your own theme by setting options in _data/themes.yml
+ui_theme: dark                                 # abyss Create your own theme by setting options in _data/themes.yml
 
 
 # =======================================#
@@ -69,12 +83,12 @@ footer-color: "#00334e"
 color-scheme: "#00334e"                              # options: demo | changes color scheme based on preset values 
 card-color: "#00334e"                                # Used on cards like the home highlights section
 nav-dIcon: "fas fa-caret-down"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/ 
-animate: false                                        # false or true, uses animate.css to animate certain functions
+animate: true                                        # false or true, uses animate.css to animate certain functions
 
 # =======================================#
 # -----------HOME PAGE  SETTINGS --------#
 #========================================#
-home_option: timeline                               # options: education, skills, timeline
+home_option: timeline                               # options: education, timeline
 
 # =======================================#          # These  settings are for demo purposes only, things like 
 # -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
@@ -95,6 +109,7 @@ plugins:
   - jekyll-feed
   - jekyll-scholar
   - jekyll-environment-variables
+  - jekyll-sitemap
 sass:
   sass_dir: _sass
   style: compressed
@@ -155,4 +170,3 @@ norton-safeweb:                                   # <meta name="norton-safeweb-s
 detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers 
 x-dns-prefetch-control: on                        # on or off. Completely opt out of DNS prefetching by setting to "off"
 fbappid:                                          # Facebook OpenGraph 
-
