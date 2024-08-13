@@ -1,0 +1,26 @@
+name: IndexNow Submission
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install indexnow-submit
+        run: npm install -g indexnow-submit
+
+      - name: Submit URLs to IndexNow
+        run: |
+          indexnow-submit submit-single https://reemstk.github.io --engine bing.com --key 72bbf1f5f013403f974581518fd6d9ed
