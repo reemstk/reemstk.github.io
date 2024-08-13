@@ -5,6 +5,8 @@
   - image: /assets/img/icons/ms.png
     date: May 2022 - Today
     description: Product Manager
+    - data:
+        - PM in Azure Data
     institute: Microsoft
   - image: /assets/img/icons/idfc.jpg
     date: July 2021 - May 2022
