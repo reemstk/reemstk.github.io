@@ -24,3 +24,4 @@ jobs:
       - name: Submit URLs to IndexNow
         run: |
           indexnow-submit submit-single https://reemstk.github.io --engine bing.com --key 72bbf1f5f013403f974581518fd6d9ed
+          indexnow-submit submit-single https://reemstk.github.io/sitemap.xml --engine bing.com --key 72bbf1f5f013403f974581518fd6d9ed
