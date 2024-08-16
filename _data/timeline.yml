@@ -24,6 +24,22 @@
     description: Grad Student (MBA)
     content:
     - data: 
+        - Some Subjects of Interest
+      item: 
+        - Predictive Analytics - ML Modelling using SAS Enterprise Miner
+        - Advanced Data Analysis using SPSS
+        - AI Concepts & Applications
+        - Optimization Modelling for Business Analytics
+        - Digital Platforms & Data Monetization
+        - Project Management
+        - Marketing of IT Products & Services
+        - Brand Management
+        - Risk Management
+        - Infrastucture Management
+        - Operations & Supply Chain Management       
+        - Social Marketing
+        - Strategy
+    - data: 
         - Product Intern at Delhivery - Logistics company
       item: 
         - Addfix (Address disambiguaton service) as a Product
