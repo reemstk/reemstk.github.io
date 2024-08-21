@@ -7,7 +7,7 @@
     description: Product Manager
     content:
     - data:
-        - PM in Azure Data
+        - PM in Azure Data (PaaS & SaaS)
     institute: Microsoft
   - image: /assets/img/icons/idfc.jpg
     date: July 2021 - May 2022
@@ -26,7 +26,7 @@
     - data: 
         - Product Intern at Delhivery - Logistics company
       item: 
-        - Addfix (Address disambiguaton service) as a Product
+        - Location Intelligence product
     - data: 
         - Social Work Intern at Plan@Earth - Solid Waste Management Trust
       item:
