@@ -37,7 +37,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | |• Programming: Java, C++, Matlab, Embedded C <br> • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript <br> • Markup: HTML5 <br> • HDL: Verilog <br> • Functional: DAX <br> • Command: Bash script <br> • Data querying: SQL, KQL, MySQL |
 | Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Demo tools | Clipchamp, Camatesia |
-| WebServices/API | Postman, SOAPUI |
+| WebServices/API | Postman, SoapUI |
 | Others tools | Eagle, Proteus, MathWorks Simulink, SVN Tortoise, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
 | Others | Spring Boot, Spring MVC, Hibernate, CronTrigger, JSF, JSP, CSS3, Bootstrap, Drools |
 | Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
