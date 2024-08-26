@@ -46,4 +46,4 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | Reference management | Zotero |
 | WebServices/API | Postman, SOAPUI |
 | Others tools | Eagle, Proteus, MathWorks Simulink, BeyondCompare, SVN Tortoise, Team Foundation Server - TFS, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
-| Other frameworks | Spring Boot, Spring MVC, Hibernate, JSF, JSP, CSS3, Bootstrap |
+| Others | Spring Boot, Spring MVC, Hibernate, CronTrigger, JSF, JSP, CSS3, Bootstrap, Drools |
