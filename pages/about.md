@@ -28,12 +28,13 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 
 | Area | Tools, Tech & Frameworks |
 |------|-------------------------|
-| Agile Project Management & Product Road Mapping | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
+| Agile Project Management | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
 | Analytics and ML modeling | SPSS, SAS Enterprise Miner|
 | Prototyping | Figma, Balasmiq, Axure, InVision |
 | Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Dashboarding | PowerBI, Tableau, Azure Data Explorer |
-| Languages | • Programming: Java, C++, Matlab, Embedded C <br> • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript <br> • Markup: HTML5 <br> • HDL: Verilog <br> • Functional: DAX <br> • Command: Bash script <br> • Data querying: SQL, KQL, MySQL |
+| Languages | |
+| |• Programming: Java, C++, Matlab, Embedded C <br> • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript <br> • Markup: HTML5 <br> • HDL: Verilog <br> • Functional: DAX <br> • Command: Bash script <br> • Data querying: SQL, KQL, MySQL |
 | CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
 | Demo tools | Clipchamp, Camatesia |
 | Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
