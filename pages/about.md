@@ -25,16 +25,25 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 * Infosys certified Java Programmer
 
 ---
-
-
-| Role | Tools & Technology |
-|-------------|--------------------|
-|_Product Manager_| Kusto Query Language - KQL, PowerApp, PowerBI, Power Automate, Azure DevOps - ADO, Azure Data Explorer - ADX, DAX, Whiteboard, Excalidraw, Webgraphviz, SharePoint Sites, ClipChamp, GitHub |
-|_Technology Product Manager_| Salesforce Financial Management Cloud - SFMC, Now Mobile, Figma, WebFlow, Confluence |
-|_Grad School Student_| IBM SPSS, ML Modelling using SAS Enterprise Miner, Tableau, Canva, WordPress, Zotero |
-|_Technology Analyst_| MySQL, HP Application Lifecycle Manager - ALM, Balasmiq, InVision, Axure, Camatasia, Postman, SQL Server Management Studio, MS Project, BeyondCompare |
-|_Senior Engineer_| REST, MySQL, Java 8, Spring Boot, MySQL, CronTrigger, Selenium, Drools, Bootstrap, AngularJS, Angular2, D3.js, CSS3, jQuery, JavaScript, Typescript, Team Foundation Server - TFS, Eclipse IDE, Tomcat |
-|_Systems Engineer_| Java 7, Spring MVC, Hibernate, log4j, cURL Script, Maven, Adobe Experience Manager - AEM CQ5, SOAP UI, SVN Tortoise, Putty, DB2, Atlassian Jira |
-|_Systems Engineer Trainee_| OOPs, Java 6, JSF, JSP, HTML, RDBMS |
-|_Undergrad Student_| Embedded C, C++, MATLAB, Verilog, Eagle, Proteus, MathWorks Simulink |
-|_High School Student_| Visual Basic |
+| Area | Tools, Tech & Frameworks|
+|------|-------------------------|
+| Agile Project Management & Product Road Mapping | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
+| Analytics and ML modeling | SPSS, SAS Enterprise Miner|
+| Prototyping | Figma, Balasmiq, Axure, InVision |
+| Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
+| Dashboarding | PowerBI, Tableau, Azure Data Explorer |
+| Languages | |
+| | * Programming: Java, C++, Matlab, Embedded C |
+| | * Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript |
+| | * Markup: HTML5 |
+| | * HDL: Verilog |
+| | * Functional: DAX |
+| | * Command: Bash script |
+| | * Data querying: SQL, KQL, MySQL |
+| CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
+| Demo tools | Clipchamp, Camatesia |
+| Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
+| Reference management | Zotero |
+| WebServices/API | Postman, SOAPUI |
+| Others tools | Eagle, Proteus, MathWorks Simulink, BeyondCompare, SVN Tortoise, Team Foundation Server - TFS, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
+| Other frameworks | Spring Boot, Spring MVC, Hibernate, JSF, JSP, CSS3, Bootstrap |
