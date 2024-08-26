@@ -31,14 +31,14 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | Agile Project Management | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
 | Analytics and ML modeling | SPSS, SAS Enterprise Miner|
 | Prototyping | Figma, Balasmiq, Axure, InVision |
-| Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Dashboarding | PowerBI, Tableau, Azure Data Explorer |
+| CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
 | Languages | |
 | |• Programming: Java, C++, Matlab, Embedded C <br> • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript <br> • Markup: HTML5 <br> • HDL: Verilog <br> • Functional: DAX <br> • Command: Bash script <br> • Data querying: SQL, KQL, MySQL |
-| CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
+| Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Demo tools | Clipchamp, Camatesia |
-| Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
-| Reference management | Zotero |
 | WebServices/API | Postman, SOAPUI |
 | Others tools | Eagle, Proteus, MathWorks Simulink, BeyondCompare, SVN Tortoise, Team Foundation Server - TFS, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
 | Others | Spring Boot, Spring MVC, Hibernate, CronTrigger, JSF, JSP, CSS3, Bootstrap, Drools |
+| Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
+| Reference management | Zotero |
