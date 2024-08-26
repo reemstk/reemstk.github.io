@@ -4,7 +4,7 @@ permalink: /about.html
 title: about
 description: Learner for Life
 header-img: 
-last-updated: 2024-07-26 5:55 PM
+last-updated: 2024-08-26 5:55 PM
 ---
 <h1></h1>
 <h3 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h3>
@@ -33,13 +33,13 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Dashboarding | PowerBI, Tableau, Azure Data Explorer |
 | Languages | |
-| | * Programming: Java, C++, Matlab, Embedded C |
-| | * Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript |
-| | * Markup: HTML5 |
-| | * HDL: Verilog |
-| | * Functional: DAX |
-| | * Command: Bash script |
-| | * Data querying: SQL, KQL, MySQL |
+| | • Programming: Java, C++, Matlab, Embedded C |
+| | • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript |
+| | • Markup: HTML5 |
+| | • HDL: Verilog |
+| | • Functional: DAX |
+| | • Command: Bash script |
+| | • Data querying: SQL, KQL, MySQL |
 | CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
 | Demo tools | Clipchamp, Camatesia |
 | Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
