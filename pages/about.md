@@ -38,7 +38,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Demo tools | Clipchamp, Camatesia |
 | WebServices/API | Postman, SOAPUI |
-| Others tools | Eagle, Proteus, MathWorks Simulink, BeyondCompare, SVN Tortoise, Team Foundation Server - TFS, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
+| Others tools | Eagle, Proteus, MathWorks Simulink, SVN Tortoise, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
 | Others | Spring Boot, Spring MVC, Hibernate, CronTrigger, JSF, JSP, CSS3, Bootstrap, Drools |
 | Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
 | Reference management | Zotero |
