@@ -32,7 +32,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | Prototyping | Figma, Balasmiq, Axure, InVision |
 | Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
 | Dashboarding | PowerBI, Tableau, Azure Data Explorer |
-| Languages | • Programming: Java, C++, Matlab, Embedded C \ • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript \ • Markup: HTML5 \ • HDL: Verilog \ • Functional: DAX \ • Command: Bash script \ • Data querying: SQL, KQL, MySQL |
+| Languages |  |
 | CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
 | Demo tools | Clipchamp, Camatesia |
 | Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
