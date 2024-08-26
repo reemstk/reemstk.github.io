@@ -40,5 +40,5 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 | WebServices/API | Postman, SoapUI |
 | Others tools | Eagle, Proteus, MathWorks Simulink, SVN Tortoise, Eclipse IDE, Tomcat, JBoss, Putty, Maven, Selenium |
 | Others | Spring Boot, Spring MVC, Hibernate, CronTrigger, JSF, JSP, CSS3, Bootstrap, Drools |
-| Low code apps | Powerapp, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
+| Low code apps | PowerApps, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
 | Reference management | Zotero |
