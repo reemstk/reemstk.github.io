@@ -28,8 +28,8 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 
 | Area | Tools, Tech & Frameworks |
 |------|-------------------------|
-| Agile Project Management | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
-| Analytics and ML modeling | SPSS, SAS Enterprise Miner|
+| Agile Project Management  | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
+| Analytics and ML modeling  | SPSS, SAS Enterprise Miner|
 | Prototyping | Figma, Balasmiq, Axure, InVision |
 | Dashboarding | PowerBI, Tableau, Azure Data Explorer |
 | CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
