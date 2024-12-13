@@ -3,10 +3,10 @@ name: Generate Sitemap
 on:
   push:
     branches:
-      - main
+      - dev
   pull_request:
     branches:
-      - main
+      - dev
 
 jobs:
   build:
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: '2.7' # Specify the Ruby version you need
+        ruby-version: '3.3.6' # Specify the Ruby version you need
 
     - name: Install dependencies
       run: |
