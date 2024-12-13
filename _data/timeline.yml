@@ -30,7 +30,8 @@
     date: Apr 2020 - Jun 2020
     description: Product Intern
     content:
-    - item: 
+    - data:
+      item: 
         - Productized Location Intelligence capabilities and developed GTM strategy
         - Ideated theme and determined potential partners for a reusable marketing campaign
     institute: Delhivery, IN
@@ -38,7 +39,8 @@
     date: Jan 2020 - Feb 2020
     description: Social Work Intern
     content:
-    - item:
+    - data:
+      item:
         - Content management for online marketplace of Upcycling Unit
         - Business case for repurposing of End of Life Tires
     institute: Plan@Earth, IN
