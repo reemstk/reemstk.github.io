@@ -5,6 +5,9 @@
   - image: /assets/img/icons/gt.png
     date: 2025 - --
     description: Grad Student (MS)
+    content:
+    - data: 
+        - Computer Science at College of Computing
     institute: Georgia Institute of Technology
   - image: /assets/img/icons/ms.png
     date: May 2022 - Today
