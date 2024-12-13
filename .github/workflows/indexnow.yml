@@ -3,7 +3,7 @@ name: IndexNow Submission
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   submit-indexnow:
