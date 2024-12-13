@@ -51,14 +51,16 @@
     description: Grad Student (MBA)
     content:
     - data: 
-        - Product Intern at Delhivery - Logistics company
-      item: 
-        - Location Intelligence product
-    - data: 
-        - Social Work Intern at Plan@Earth - Solid Waste Management Trust
-      item:
-        - Content management for online marketplace of Upcycling Unit
-        - Business case for repurposing of End of Life Tires
+        - Concentration - Operations & Decision Science
+    #- data: 
+    #    - Product Intern at Delhivery - Logistics company
+    #  item: 
+    #    - Location Intelligence product
+    #- data: 
+    #    - Social Work Intern at Plan@Earth - Solid Waste Management Trust
+    #  item:
+    #    - Content management for online marketplace of Upcycling Unit
+    #    - Business case for repurposing of End of Life Tires
     - data: 
         - Member of Marketing Committee, NjM (Not Just Marketing)
       item: 
