@@ -2,6 +2,10 @@
 # Timeline #
 ############
 #acad-events:
+  - image: /assets/img/icons/gt.png
+    date: 2025 - --
+    description: Grad Student (MS)
+    institute: Georgia Institute of Technology
   - image: /assets/img/icons/ms.png
     date: May 2022 - Today
     description: Product Manager
@@ -17,7 +21,7 @@
         - Management Trainee in Corporate Technology
         - Product Manager for Employee Experience Mobile App
         - Product Manager for Banking Console
-        - Founding team of Automation Testing CoE
+        - Founding member of Automation Testing CoE
     institute: IDFC First Bank
   - image: /assets/img/icons/nmims.png
     date: Jun 2019 - May 2021
@@ -45,7 +49,7 @@
     - data:
         - Product Owner for Infosys Test Data Management solution
         - Full stack developer at Infosys SET Labs (R&D for Validation services CoE)
-        - CRM application migration for a major US based Newsprint company
+        - CRM application migration for a major US based News company
         - Digital Content Management for a Fortune 500 Pharmaceutical company
     institute: Infosys
   - image: /assets/img/icons/mgu.png
