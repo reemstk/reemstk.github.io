@@ -4,7 +4,7 @@ permalink: /about.html
 title: about
 description: Learner for Life
 header-img: 
-last-updated: 2024-08-26 5:55 PM
+last-updated: 2024-12-15 21:01 PM
 ---
 <h1></h1>
 <h3 class="mx-auto" style="font-family:Courgette; text-align: center">{{ page.description }}</h3>
@@ -23,6 +23,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 * Azure Fundamentals certification by Microsoft
 * Infosys certified Java Programmer
 * Six Sigma Green Belt by KPMG
+* Bloomberg Marketing Concepts
 
 ---
 
