@@ -3,7 +3,7 @@
 ############
 #acad-events:
   - image: /assets/img/icons/gt.png
-    date: 2025 - --
+    date: Jan 2025 - --
     description: Grad Student (MS)
     content:
     - data: 
@@ -17,7 +17,7 @@
         - PM in Azure Data (PaaS & SaaS)
     institute: Microsoft
   - image: /assets/img/icons/idfc.jpg
-    date: July 2021 - May 2022
+    date: Jul 2021 - May 2022
     description: Technology Product Manager
     content:
     - data:
