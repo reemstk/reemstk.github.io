@@ -14,7 +14,7 @@
     description: Product Manager
     content:
     - data:
-        - PM in Azure Data (PaaS & SaaS)
+        - PM in Azure Data (PaaS) & Microsoft Fabric (SaaS)
     institute: Microsoft
   - image: /assets/img/icons/idfc.jpg
     date: Jul 2021 - May 2022
