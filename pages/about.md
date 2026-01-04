@@ -37,7 +37,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
     </tr>
   </thead>
   <tbody>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">Product Leadership</td>
       <td style="padding:10px 8px;">Product strategy, roadmap ownership, prioritization, Agile/Scrum, Jira, Azure DevOps (TFS)</td>
     </tr>
@@ -45,7 +45,9 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Program Management</td>
       <td style="padding:10px 8px;">HP ALM, MS Project</td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
+    <tr>
       <td style="padding:10px 8px;">Product Analytics</td>
       <td style="padding:10px 8px;">KPI definition, metric aggregation, experimentation support (Power BI, Tableau, Azure Data Explorer, SQL, KQL, DAX)</td>
     </tr>
@@ -53,15 +55,17 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Statistical Methods</td>
       <td style="padding:10px 8px;">Experimental design, model evaluation (SPSS, SAS Enterprise Miner)</td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">Data Visualization</td>
       <td style="padding:10px 8px;">Interactive dashboards, drill-down analysis, visualization patterns for skewed data (D3.js)</td>
     </tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr>
       <td style="padding:10px 8px;">Product Platforms</td>
       <td style="padding:10px 8px;">Adobe Experience Manager (CQ5), Webflow, GitHub Pages, SharePoint, Confluence</td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">UX &amp; Discovery</td>
       <td style="padding:10px 8px;">Wireframing, UX flows, Figma, Balsamiq, Axure</td>
     </tr>
@@ -69,10 +73,12 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">APIs &amp; Integrations</td>
       <td style="padding:10px 8px;">API-first product design, RESTful services, system integration, API testing &amp; validation workflows (Postman, SoapUI)</td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">Low-Code &amp; Automation</td>
       <td style="padding:10px 8px;">Power Apps, Power Automate, ServiceNow Mobile, Salesforce Financial Management Cloud</td>
     </tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr>
       <td style="padding:10px 8px;">Technical Foundations</td>
       <td style="padding:10px 8px;">
@@ -83,7 +89,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
         electronics design &amp; simulation (Eagle, Proteus)
       </td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">Dev &amp; Test Ecosystem</td>
       <td style="padding:10px 8px;">
         IDE &amp; developer workflows (IntelliJ IDEA, Android Studio, VS Code, Eclipse),
@@ -95,10 +101,9 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Ideation</td>
       <td style="padding:10px 8px;">Whiteboarding, Mural, Excalidraw, WebGraphviz, demo &amp; walkthrough tools (Camtasia, Clipchamp)</td>
     </tr>
-    <tr style="background-color:#fafbfc;">
+    <tr>
       <td style="padding:10px 8px;">Research Tools</td>
       <td style="padding:10px 8px;">Zotero</td>
     </tr>
   </tbody>
 </table>
-
