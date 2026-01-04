@@ -27,7 +27,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 
 <table style="border-collapse: collapse; width: 100%; margin-top: 1.2em; font-size: 0.95rem;">
   <thead>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <th style="border-bottom:2px solid #e5e7eb; padding:10px 8px; text-align:left; width:25%;">
         Area
       </th>
@@ -41,17 +41,16 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Product Leadership</td>
       <td style="padding:10px 8px;">Product strategy, roadmap ownership, prioritization, Agile/Scrum, Jira, Azure DevOps (TFS)</td>
     </tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Program Management</td>
       <td style="padding:10px 8px;">HP ALM, MS Project</td>
     </tr>
-    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr>
       <td style="padding:10px 8px;">Product Analytics</td>
       <td style="padding:10px 8px;">KPI definition, metric aggregation, experimentation support (Power BI, Tableau, Azure Data Explorer, SQL, KQL, DAX)</td>
     </tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Statistical Methods</td>
       <td style="padding:10px 8px;">Experimental design, model evaluation (SPSS, SAS Enterprise Miner)</td>
     </tr>
@@ -60,8 +59,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Interactive dashboards, drill-down analysis, visualization patterns for skewed data (D3.js)</td>
     </tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
-    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Product Platforms</td>
       <td style="padding:10px 8px;">Adobe Experience Manager (CQ5), Webflow, GitHub Pages, SharePoint, Confluence</td>
     </tr>
@@ -69,7 +67,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">UX &amp; Discovery</td>
       <td style="padding:10px 8px;">Wireframing, UX flows, Figma, Balsamiq, Axure</td>
     </tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">APIs &amp; Integrations</td>
       <td style="padding:10px 8px;">API-first product design, RESTful services, system integration, API testing &amp; validation workflows (Postman, SoapUI)</td>
     </tr>
@@ -78,8 +76,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Power Apps, Power Automate, ServiceNow Mobile, Salesforce Financial Management Cloud</td>
     </tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
-    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Technical Foundations</td>
       <td style="padding:10px 8px;">
         Software architecture literacy (Java, JavaScript, TypeScript), data &amp; scripting foundations (SQL, Bash),
@@ -97,7 +94,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
         enterprise Java &amp; web application ecosystems (JSF, JSP, Hibernate Query Language, Drools, AngularJS, CSS3)
       </td>
     </tr>
-    <tr>
+    <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Ideation</td>
       <td style="padding:10px 8px;">Whiteboarding, Mural, Excalidraw, WebGraphviz, demo &amp; walkthrough tools (Camtasia, Clipchamp)</td>
     </tr>
