@@ -28,17 +28,17 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
 ---
 
 | Area | Tools, Tech & Frameworks |
-|------|-------------------------|
-| Agile Project Management  | Jira, Azure DevOps Server (TFS), HP ALM, MS Project|
-| Analytics and ML modeling  | SPSS, SAS Enterprise Miner|
-| Prototyping | Figma, Balasmiq, Axure, InVision |
-| Dashboarding | PowerBI, Tableau, Azure Data Explorer |
-| CMS | AEM CQ5, WebFlow, WordPress, Github Pages, SharePoint Sites, Confluence |
-| Languages | |
-| |• Programming: Java, C++, Matlab, Embedded C <br> • Scripting: JavaScript, VBScript, D3.js, AngularJS, Angular2, Typescript <br> • Markup: HTML5 <br> • HDL: Verilog <br> • Functional: DAX <br> • Command: Bash script <br> • Data querying: SQL, KQL, MySQL |
-| Ideation | Whiteboard, Mural, Excalidraw, Webgraphviz |
-| Demo tools | Clipchamp, Camatesia |
-| WebServices/API | Postman, SoapUI |
-| Others | Eagle, Proteus, MathWorks Simulink, Eclipse, VSCode, Putty, Selenium, JSF, JSP, CSS3, Drools Rule Language, Hibernate Query Language |
-| Low code apps | PowerApps, Power Automate, Now Mobile, Salesforce Financial Management Cloud |
-| Reference management | Zotero |
+|------|--------------------------|
+| **Product Leadership & Delivery** | Product strategy, roadmap ownership, prioritization, Agile/Scrum, Jira, Azure DevOps (TFS) |
+| **Program & Execution Tooling** | HP ALM, MS Project |
+| **Product Analytics, Metrics & Decision Support** | KPI definition, metric aggregation, experimentation support (Power BI, Tableau, Azure Data Explorer, SQL, KQL, DAX) |
+| **Statistical Modeling & Analytical Methods** | Experimental design, model evaluation (SPSS, SAS Enterprise Miner) |
+| **Visualization & Data Storytelling** | Interactive dashboards, drill-down analysis, visualization patterns for skewed data (D3.js) |
+| **Product Platforms & Systems** | Adobe Experience Manager (CQ5), Webflow, GitHub Pages, SharePoint, Confluence |
+| **UX Prototyping & Product Discovery** | Wireframing, UX flows, Figma, Balsamiq, Axure |
+| **Platforms, APIs & Integrations** | API-first product design, RESTful services, system integration, API testing & validation workflows (Postman, SoapUI) |
+| **Low-Code, Workflow & Enterprise Automation** | Power Apps, Power Automate, ServiceNow Mobile, Salesforce Financial Management Cloud |
+| **Domain & Technical Foundations** | Software architecture literacy (Java, JavaScript, TypeScript), data & scripting foundations (SQL, Bash), build & dependency tools (Maven, Ant), application servers & runtimes (JBoss, Tomcat), hardware & embedded systems exposure (Verilog, Embedded C), algorithmic & numerical modeling (MATLAB, Simulink), electronics design & simulation (Eagle, Proteus) |
+| **Developer & Test Ecosystem Awareness** | IDE & developer workflows (IntelliJ IDEA, Android Studio, VS Code, Eclipse), testing & automation concepts (Selenium), enterprise Java & web application ecosystems (JSF, JSP, Hibernate Query Language, Drools, AngularJS, CSS3) |
+| **Ideation, Collaboration & Communication** | Whiteboarding, Mural, Excalidraw, WebGraphviz, demo & walkthrough tools (Camtasia, Clipchamp) |
+| **Research & Reference Management** | Zotero |
