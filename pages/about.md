@@ -46,6 +46,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">HP ALM, MS Project</td>
     </tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr>
       <td style="padding:10px 8px;">Product Analytics</td>
       <td style="padding:10px 8px;">KPI definition, metric aggregation, experimentation support (Power BI, Tableau, Azure Data Explorer, SQL, KQL, DAX)</td>
@@ -58,6 +59,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Data Visualization</td>
       <td style="padding:10px 8px;">Interactive dashboards, drill-down analysis, visualization patterns for skewed data (D3.js)</td>
     </tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Product Platforms</td>
@@ -75,6 +77,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
       <td style="padding:10px 8px;">Low-Code &amp; Automation</td>
       <td style="padding:10px 8px;">Power Apps, Power Automate, ServiceNow Mobile, Salesforce Financial Management Cloud</td>
     </tr>
+    <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr><td colspan="2" style="padding:6px 0;"></td></tr>
     <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Technical Foundations</td>
