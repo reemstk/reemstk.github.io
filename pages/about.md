@@ -12,15 +12,16 @@ last-updated: 2024-12-15 21:01 PM
 
 I am an erstwhile Full Stack Developer who transitioned into a Product Manager. I started my career as Systems Engineer Trainee at Infosys in the beautiful city of Mysuru, India.
 
-##### Certifications & Tech Chops
 ---
+###### Certifications
+
 * Project Management Professional by PMI (PMP)
 * Azure Fundamentals certification by Microsoft
 * Six Sigma Green Belt by KPMG
 * Bloomberg Marketing Concepts
 * Infosys certified Java Programmer
 
----
+###### Tech Chops
 
 <table style="border-collapse: collapse; width: 100%; margin-top: 1.2em; font-size: 0.95rem;">
   <thead>
