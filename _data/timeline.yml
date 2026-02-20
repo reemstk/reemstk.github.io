@@ -8,7 +8,7 @@
     content:
     - data: 
         - Computer Science at College of Computing
-        item:
+      item:
         - Mobile and Ubiquitous Computing
         - Machine Learning for Trading
         - Human Computer Interaction
