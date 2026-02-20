@@ -96,7 +96,7 @@ I am an erstwhile Full Stack Developer who transitioned into a Product Manager. 
     </tr>
     <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Ideation</td>
-      <td style="padding:10px 8px;">Whiteboarding, Mural, Excalidraw, WebGraphviz, demo &amp; walkthrough tools (Camtasia, Clipchamp)</td>
+      <td style="padding:10px 8px;">Whiteboarding, Mural, Excalidraw, WebGraphviz, demo &amp; walkthrough tools (Camtasia, Clipchamp, AutoTyper, ScreentoGif)</td>
     </tr>
     <tr style="background-color:#fafbfc;">
       <td style="padding:10px 8px;">Research Tools</td>
